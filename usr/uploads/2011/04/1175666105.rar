@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>页面没找到 - 简而美 • Simple Beauty</title>
+
+<link rel="shortcut icon" type="image/ico" href="http://blog.176878.com/favicon.ico">
+<!-- 使用url函数转换相关路径 -->
+<link rel="stylesheet" type="text/css" media="all" href="http://blog.176878.com/usr/themes/youme/style.css" />
+
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+
+<!-- 通过自有函数输出HTML头部信息 -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script><script type="text/javascript" src="http://blog.176878.com/usr/plugins/TextEditor/js/Lighter/Lighter.js"></script><script type="text/javascript"> window.addEvent("domready", function() { $$("pre").light({ mode: "ol" ,altLines: "hover" });  })</script> <link rel="stylesheet" type="text/css" href="http://blog.176878.com/usr/plugins/SlimBox2/css/slimbox2.css" />
+<meta name="description" content="Be a Simple Programmer &amp; Live a Simple Life" />
+<meta name="keywords" content="简而美,博客,程序员,C++,网站设计,程序设计,简而美博客,简而美程序" />
+<meta name="generator" content="Typecho 0.8/10.8.15" />
+<meta name="template" content="youme" />
+<link rel="pingback" href="http://blog.176878.com/index.php/action/xmlrpc" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.176878.com/index.php/action/xmlrpc?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.176878.com/index.php/action/xmlrpc?wlw" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://blog.176878.com/index.php/feed/" />
+<link rel="alternate" type="application/rdf+xml" title="RSS 1.0" href="http://blog.176878.com/index.php/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="http://blog.176878.com/index.php/feed/atom/" />
+</head>
+
+<body class="home blog">
+<div id="wrap" class="group">
+	<!-- begin #nav -->
+	<div id="nav">
+		<div id="logo">
+			<a href="http://blog.176878.com/"><p>简而美 • Simple Beauty</p></a>
+		</div>
+		<ul>
+			<li  >
+				<a href="http://blog.176878.com/">TA的主页</a>
+			</li>
+			                        <li ><a href="http://blog.176878.com/index.php/category/%E5%BF%83%E6%83%85%E6%97%A5%E8%AE%B0/">心情日记</a></li>
+                        <li ><a href="http://blog.176878.com/index.php/category/%E8%81%8A%E8%B4%A5%E7%BD%91%E5%BC%80%E5%8F%91/">聊败网开发</a></li>
+                        <li ><a href="http://blog.176878.com/index.php/category/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/">网页设计</a></li>
+                        <li ><a href="http://blog.176878.com/index.php/category/typecho/">typecho</a></li>
+            			
+									<li  >
+				<a href="http://blog.176878.com/index.php/%E5%85%B3%E4%BA%8ETA.html" title="关于TA">关于TA</a>
+			</li>
+					</ul>
+	</div>
+	<!-- end #nav -->
+	
+	<!-- begin #main -->
+	<div id="main" class="group">
+		<!-- begin #content -->
+		<div id="content">
+			<!-- begin #content-inner -->
+			<div id="content-inner">
+				<div id="branding">
+					<a href="http://blog.176878.com/" >简而美 • Simple Beauty</a> 
+					<span id="branding-tag">Be a Simple Programmer & Live a Simple Life</span>
+				</div>
+        <div class="article post">
+			<div class="article-body">
+				<h2 class="group">404 - 页面没找到</h2>
+				<p>
+				<form method="post" action="http://blog.176878.com/">
+					<div><input type="text" name="s" class="text" size="20" /> <input type="submit" class="button" value="搜索" /></div>
+				</form>
+				</p>
+			</div>
+        </div>
+
+	</div><!-- end #content-inner-->
+</div><!-- end #content-->
+	
+<div id="sidebar">
+
+	<div class="">
+		<p class="weibo">
+<iframe width="258" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://service.t.sina.com.cn/widget/WeiboShow.php?width=258&height=550&fansRow=2&ptype=1&speed=100&skin=-1&isTitle=0&noborder=0&isWeibo=1&isFans=1&uid=1765139363&verifier=1848e47b&colors=d6f3f7,ffffff,666666,0082cb"></iframe>
+        </p>
+	</div>
+	<div class="">
+		<h3>搜搜看看</h3>
+			<div class="search group">
+			<form method="post" action="http://blog.176878.com/">
+			<input type="text" name="s" class="s-text" size="20" onkeydown=" if(event.keyCode==13) this.submit();"/> 
+			<input type="submit" class="s-button" value="" />
+			
+			</form>
+			</div>
+	</div>
+	<div class="">
+		<h3>友情链接</h3>
+		<ul class="links">
+			<li class='group'><a href="http://www.176878.com" title="淘宝购物折扣分享网" target="_blank"><img src="http://blog.176878.com/usr/plugins/Links/nopic.jpg" alt="聊败网" /><span>聊败网</span><em>淘宝购物折扣分享网</em></a></li>
+<li class='group'><a href="http://www.typecho.org" title="typecho官方网站" target="_blank"><img src="http://static.typecho.org/images/rabbit-logo.png" alt="Typeho" /><span>Typeho</span><em>typecho官方网站</em></a></li>
+		</ul>
+	</div>
+
+</div><!-- end #sidebar -->
+	
+</div> <!-- end #main -->
+</div> <!-- end #wrap -->
+
+<div id="footer">
+	<p>
+		<a href="http://blog.176878.com/index.php/feed/">文章 RSS</a> 
+		<span class="sep">•</span> 
+		<a href="http://blog.176878.com/index.php/feed/comments/">评论 RSS</a>
+		<span class="sep">•</span> 
+				<a href="http://blog.176878.com/admin/login.php">登录</a>
+			</p>
+	<p>
+	Copyright © 2011 <a href="http://blog.176878.com/">简而美 • Simple Beauty</a>. All rights reserved. Theme by <a href="http://simplebits.com">simplebits</a> & <a href="http://blog.176878.com">lauyoume</a>.Power by <a href="http://www.typecho.org">Typecho)))</a> . <a href="http://mediatemple.net">浙ICP备11009035号</a>.
+		<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9e1dc7ca4a3166737531b79db96778a3' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+	</p>
+</div>
+
+<script type="text/javascript" src="http://blog.176878.com/usr/plugins/SlimBox2/js/slimbox2.js"></script><script type="text/javascript">jQuery(function($) {
+            $(".entry a:has(img)").slimbox({
+                overlayOpacity: 0.75,
+                overlayFadeDuration: 400,
+                imageFadeDuration: 400,
+                captionAnimationDuration: 400,
+                loop:false,
+                counterText:"Image {x} of {y}"
+            });
+            });</script></body>
+</html>

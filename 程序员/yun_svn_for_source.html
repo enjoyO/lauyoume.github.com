@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>使用云盘、svn同步及管理你的代码 | 简而美 • Simple Beauty</title>
+  <meta name="author" content="lauyoume">
+  
+  <meta name="description" content="一个程序员的自白：给我台电脑，我也能改变世界">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="使用云盘、svn同步及管理你的代码"/>
+  <meta property="og:site_name" content="简而美 • Simple Beauty"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="简而美 • Simple Beauty" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="/js/html5.js"></script><![endif]-->
+  <script src="/js/jquery-1.8.3.min.js"></script>
+  
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-44649033-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+
+<body>
+  <header id="header" class="inner clearfix"><a href="/" class="alignleft">
+  <img class="avatar" src="http://www.gravatar.com/avatar/bcbe93e436daf8ac1d0950a05a6ff2e1?s=80" title="简而美 • Simple Beauty"/>
+</a>
+<nav id="main-nav" class="alignleft clearfix">
+  <ul>
+    
+      <li><a href="/">首页</a></li>
+    
+      <li><a href="/archives">归档</a></li>
+    
+  </ul>
+</nav></header>
+  <div id="content" class="inner">
+    <div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title">使用云盘、svn同步及管理你的代码</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>以前一直把代码托管在国外的代码托管服务上，如googlecode、github等，方便在公司、家里、其他电脑上访问代码、同步修改，现在国内云盘那么多，我想了想能不能同步我svn本地的版本库呢，来吧，跟着我动手解决~~~~</p>
+<p>大家都知道，svn可以创建本地版本库，如果你把本地版本库创建在云盘的同步目录中，那就可以直接同步svn版本库了。</p>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/4145881559.jpg" title="yun_svn.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/4145881559.jpg" alt="yun_svn.jpg"></a></p>
+<p>下面我以 坚果云 为例来说明如何同步你的本地svn库<br><a id="more"></a></p>
+<h3>坚果云安装</h3>
+<p>坚果云下载： <a href="https://jianguoyun.com/" target="_blank"><a href="https://jianguoyun.com/">https://jianguoyun.com/</a></a>，下载windows版本，安装完成后，设置一个同步目录，以下是我设置的同步目录：E:\我的坚果云</p>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/886727036.jpg" title="目录.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/886727036.jpg" alt="目录.jpg"></a></p>
+<h3>新建SVN代码版本库</h3>
+<p>新建一个代码库目录，并在里面创建你的代码项目目录，并创建你的svn本地库，如下图：</p>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/1500748130.jpg" title="svn.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/1500748130.jpg" alt="svn.jpg"></a></p>
+<h3>checkout你的版本库并管理</h3>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/3821163485.jpg" title="checkout.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/3821163485.jpg" alt="checkout.jpg"></a></p>
+<h3>管理代码</h3>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/1654882074.jpg" title="checkin.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/1654882074.jpg" alt="checkin.jpg"></a></p>
+<h3>打开坚果云同步上传</h3>
+<p>打开坚果云，并开启同步上传之后，你在任何一台电脑都可以用svn访问你的代码，另外同步的是加密的svn文件并不是代码文件..同步结果如下：</p>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/285119004.jpg" title="yun_s.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/285119004.jpg" alt="yun_s.jpg"></a></p>
+<pre>PS: 坚果云，还可以同步多个文件夹，可以多人访问，故也可以将代码库建立在非安装时候设置的同步目录中，可以多人访问，也同时实现了多人操作svn的可能~~具体自行研究~~~</pre>
+      
+    </div>
+    <footer>
+      
+  
+  <div class="categories">
+    <a href="/category/程序员/">程序员</a>
+  </div>
+
+      
+  
+  <div class="tags">
+    <a href="/tags/云存储/">云存储</a>, <a href="/tags/坚果云/">坚果云</a>, <a href="/tags/代码同步/">代码同步</a>, <a href="/tags/svn/">svn</a>, <a href="/tags/svn代码管理/">svn代码管理</a>, <a href="/tags/远程代码/">远程代码</a>
+  </div>
+
+      <time datetime="2012-07-14T08:17:59.000Z">07 14, 2012</time>
+    </footer>
+  </div>
+  
+
+<section id="comment">
+	<h1 class="title">留言</h1>
+	<div class="ds-thread"></div>
+	<script type="text/javascript">
+		var duoshuoQuery = {short_name:"whyyou"};
+		(function() {
+			var ds = document.createElement('script');
+			ds.type = 'text/javascript';ds.async = true;
+			ds.src = 'http://static.duoshuo.com/embed.js';
+			ds.charset = 'UTF-8';
+			(document.getElementsByTagName('head')[0] 
+			|| document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
+	</script>	
+</section>
+
+</article></div>
+  </div>
+  <footer id="footer" class="inner clearfix"><div class="link clearfix">
+	<div class="widget">
+		
+		<ul>
+			<li>Friends：</li>
+			<li><a href="http://176878.com" title="笑话分享网" target="_blank">笑了族</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://immmmm.com/" title="林木木的博客" target="_blank">木木木木木</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://bufannao.com" title="愿大家共做无烦恼之人" target="_blank">不烦恼的博客</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://vaman.org" title="vaman的博客有关主机、SEO等" target="_blank">vaman的部落格</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://lusongsong.com" title="关注网站推广和运营原创IT博客" target="_blank">卢松松博客</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://www.fyhqy.com" title="个人技术程序记录、美好的生活记录" target="_blank">枫叶红秋雨</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://flyer.pytalhost.com" title="因为喜欢, 所以折腾ING" target="_blank">Flyer's Blog</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://jiaozhu.org" title="软件开发与网站建设方面的评论" target="_blank">教主's Blog</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://khepera.name" title="一个摄影、网页设计的人" target="_blank">芳仔</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://ebg.qpsh.com/" title="" target="_blank">ebg男装</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://www.inawen.com/" title="" target="_blank">纳纹女装</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://www.iandou.com/" title="" target="_blank">安都女装</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://www.xliebo.com/" title="" target="_blank">裂帛旗舰店</a></li>
+	    </ul>
+	</div>
+</div>
+
+<div class="clearfix">
+  <div class="alignleft">
+    
+    &copy; 2013 lauyoume / 
+    <a href="http://whyyou.me/sitemap.xml" target="_blank">网站地图</a>
+    
+  </div>
+  <div class="social alignright">
+    
+    
+    
+    
+      <a class="github" href="https://github.com/lauyoume" title="GitHub">GitHub</a>
+    
+    <a class="rss" href="/atom.xml" title="RSS">RSS</a>
+  </div>
+</div>
+
+
+</footer>
+  <script src="/js/omega.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+</body>
+</html>

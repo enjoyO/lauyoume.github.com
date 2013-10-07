@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>使用关键字和百分比来设定文字大小-无懈可击的Web设计 | 简而美 • Simple Beauty</title>
+  <meta name="author" content="lauyoume">
+  
+  <meta name="description" content="一个程序员的自白：给我台电脑，我也能改变世界">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="使用关键字和百分比来设定文字大小-无懈可击的Web设计"/>
+  <meta property="og:site_name" content="简而美 • Simple Beauty"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="简而美 • Simple Beauty" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="/js/html5.js"></script><![endif]-->
+  <script src="/js/jquery-1.8.3.min.js"></script>
+  
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-44649033-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+
+<body>
+  <header id="header" class="inner clearfix"><a href="/" class="alignleft">
+  <img class="avatar" src="http://www.gravatar.com/avatar/bcbe93e436daf8ac1d0950a05a6ff2e1?s=80" title="简而美 • Simple Beauty"/>
+</a>
+<nav id="main-nav" class="alignleft clearfix">
+  <ul>
+    
+      <li><a href="/">首页</a></li>
+    
+      <li><a href="/archives">归档</a></li>
+    
+  </ul>
+</nav></header>
+  <div id="content" class="inner">
+    <div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title">使用关键字和百分比来设定文字大小-无懈可击的Web设计</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>通常情况下，在为网站页面设计文字大小的时候，我通常会以像素值来设定文字大小，因为这样精准的大小，在几乎每个浏览器上都是一样的大小的，这样基本能够让我精准的控制它们的显示尺寸。以前我是非常喜欢这么做的，但是自从看了该书之后，让我豁然明白，居然还能有这么好的方案，可以非常灵活的控制页面的字体。<a id="more"></a></p>
+<p>我们知道，在css中主要有4大类别来设定font的fontsize:</p>
+<p>1. 长度单位</p>
+<p>1.1 相对长度</p>
+<ul>
+<li>em：相对父级元素的字体大小</li>
+<li>ex：相对特定字体中字母x的高度</li>
+<li>px：相对于特定设备的分辨率</li>
+</ul>
+<p>1.2 绝对长度单位</p>
+<ul>
+<li>in：英才</li>
+<li>cm：厘米</li>
+<li>mm：毫米</li>
+<li>pt：点</li>
+<li>pc：12点活字</li>
+</ul>
+<p>2. 相对大小的关键字</p>
+<p>larger，smaller，这两个都是跟父级的子字体相关的.</p>
+<p>3. 百分比值</p>
+<p>如120%，在父级元素基础上增大20%，父级10px,那么120%则是12px</p>
+<p>4. 绝对大小的关键字</p>
+<p>xx-small,x-small,small,medium,large,x-large,xx-large. 这些关键字对应的字体大小则由浏览器或设备决定的.</p>
+<p>在这些认知上，书中为我们给出了两种策略，如下我将我所看到的分享出来，这些让我明白了如何应用这些策略来定制网站页面的字体，并让我将这种策略应用到网页设计了，目前我应用em的字体策略并重新架构设计了<a href="http://m.hzztonline.com" target="_blank">搜街宝</a>手机网站页面。</p>
+<h3>一. 使用关键字和百分比</h3>
+<p>使用关键字和百分比，一般情况下要给页面设定一个基准值，这个基础值使用small关键字.</p>
+<pre><code><span class="tag">body</span><span class="rules">{
+    <span class="rule"><span class="attribute">font-size</span>:<span class="value">small;</span></span>
+<span class="rule">}</span></span></code></pre>
+<p>关键字设定的字体大小与当前浏览器的设置相关,.至于为什么选择small,通常情况下,small关键字默认的字体大小跟12px像素级别的字体大小很是接近.<br>当我们有了这个基准值之后,我们可以使用百分比来增大或减小字体大小，来获得我们想要的尺寸.</p>
+<pre><code><span class="tag">h1</span><span class="rules">{
+    <span class="rule"><span class="attribute">font-size</span>:<span class="value"><span class="number">150</span>%;</span></span>
+<span class="rule">}</span></span>
+<span class="class">.note</span><span class="rules">{
+    <span class="rule"><span class="attribute">font-size</span>:<span class="value"><span class="number">90</span>%;</span></span>
+<span class="rule">}</span></span></code></pre>
+<p>之后,我们结合使用关键字和百分比就可以获取我们的设计,它使得我们方便于管理整个页面的字体,亦方便于修改.</p>
+<p>此外,在结合使用关键字和百分比时,基于各种设计相关的理由通常在基准值之上使用一个div来设定能够影响整个页面的百分比,如下：</p>
+<pre><code>body{
+    font-size:small;
+}
+.wrap{
+     font-size:95%;
+}
+h1{
+    font-size:150%;
+}
+<span class="tag">&lt;<span class="title">body</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"wrap"</span>&gt;</span>
+      <span class="tag">&lt;<span class="title">h1</span>&gt;</span>标题<span class="tag">&lt;/<span class="title">h1</span>&gt;</span>
+    <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">body</span>&gt;</span></code></pre>
+<p>另外，要<strong>谨慎使用嵌套的百分比</strong>，如上例子. h1其实是在95%的基础上再扩大至120%.. 即 默认字体大小 <em> 95%  </em> 150%. </p>
+<p>由于篇幅较长,另外一种策略 《使用em实现灵活的字-无懈可击的Web设计》将下次分享. 敬请期待.</p>
+<pre><code>声明：本文仅是个人的读书笔记,旨在分享.</code></pre>
+
+      
+    </div>
+    <footer>
+      
+  
+  <div class="categories">
+    <a href="/category/网页设计/">网页设计</a>
+  </div>
+
+      
+  
+  <div class="tags">
+    <a href="/tags/无懈可击的Web设计/">无懈可击的Web设计</a>, <a href="/tags/网页设计/">网页设计</a>, <a href="/tags/CSS/">CSS</a>, <a href="/tags/font-size/">font-size</a>, <a href="/tags/网页字体/">网页字体</a>
+  </div>
+
+      <time datetime="2011-04-21T14:33:00.000Z">04 21, 2011</time>
+    </footer>
+  </div>
+  
+
+<section id="comment">
+	<h1 class="title">留言</h1>
+	<div class="ds-thread"></div>
+	<script type="text/javascript">
+		var duoshuoQuery = {short_name:"whyyou"};
+		(function() {
+			var ds = document.createElement('script');
+			ds.type = 'text/javascript';ds.async = true;
+			ds.src = 'http://static.duoshuo.com/embed.js';
+			ds.charset = 'UTF-8';
+			(document.getElementsByTagName('head')[0] 
+			|| document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
+	</script>	
+</section>
+
+</article></div>
+  </div>
+  <footer id="footer" class="inner clearfix"><div class="link clearfix">
+	<div class="widget">
+		
+		<ul>
+			<li>Friends：</li>
+			<li><a href="http://176878.com" title="笑话分享网" target="_blank">笑了族</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://immmmm.com/" title="林木木的博客" target="_blank">木木木木木</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://bufannao.com" title="愿大家共做无烦恼之人" target="_blank">不烦恼的博客</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://vaman.org" title="vaman的博客有关主机、SEO等" target="_blank">vaman的部落格</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://lusongsong.com" title="关注网站推广和运营原创IT博客" target="_blank">卢松松博客</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://www.fyhqy.com" title="个人技术程序记录、美好的生活记录" target="_blank">枫叶红秋雨</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://flyer.pytalhost.com" title="因为喜欢, 所以折腾ING" target="_blank">Flyer's Blog</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://jiaozhu.org" title="软件开发与网站建设方面的评论" target="_blank">教主's Blog</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://khepera.name" title="一个摄影、网页设计的人" target="_blank">芳仔</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://ebg.qpsh.com/" title="" target="_blank">ebg男装</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://www.inawen.com/" title="" target="_blank">纳纹女装</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://www.iandou.com/" title="" target="_blank">安都女装</a>&nbsp;|&nbsp;</li>
+			<li><a href="http://www.xliebo.com/" title="" target="_blank">裂帛旗舰店</a></li>
+	    </ul>
+	</div>
+</div>
+
+<div class="clearfix">
+  <div class="alignleft">
+    
+    &copy; 2013 lauyoume / 
+    <a href="http://whyyou.me/sitemap.xml" target="_blank">网站地图</a>
+    
+  </div>
+  <div class="social alignright">
+    
+    
+    
+    
+      <a class="github" href="https://github.com/lauyoume" title="GitHub">GitHub</a>
+    
+    <a class="rss" href="/atom.xml" title="RSS">RSS</a>
+  </div>
+</div>
+
+
+</footer>
+  <script src="/js/omega.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+</body>
+</html>

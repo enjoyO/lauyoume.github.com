@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[简而美 • Simple Beauty]]></title>
+  <subtitle><![CDATA[一个程序员的自白：给我台电脑，我也能改变世界]]></subtitle>
+  <link href="http://whyyou.me/atom.xml" rel="self"/>
+  <link href="http://whyyou.me"/>
+  <updated>2013-10-07T05:08:33.079Z</updated>
+  <id>http://whyyou.me/</id>
+  <author>
+    <name><![CDATA[lauyoume]]></name>
+    <email><![CDATA[9@whyyou.me]]></email>
+  </author>
+  <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[推荐国内开放静态文件CDN服务]]></title>
+    <link href="http://whyyou.me/网页设计/staticfile.html"/>
+    <id>http://whyyou.me/网页设计/staticfile.html</id>
+    <published>2013-09-28T03:03:56.000Z</published>
+    <updated>2013-10-06T15:02:25.000Z</updated>
+    <content type="html"><![CDATA[<p>虽然国内外有很多类似的服务器，比如最初的google ajax api，还有后来的sae，百度等都有提供，但是也都有不同的弊端，比如国内访问速度慢、提供的静态文件不全等。。。staticfile有望解决这个问题。<a id="more"></a><br>访问 <a href="http://staticfile.org/" target="_blank">官方网站</a><br>简单介绍：</p>
+<p>此仓库由 Sofish、hfcorriez 和 ikbear 更新和维护，由七牛云存储提供存储和加速，国外源同步于 CDNJS。<br>特色：开放</p>
+<p>该项目托管在<a href="https://github.com/staticfile" target="_blank">github</a>上，每个人都可以去提交补充需要的js或者css库文件。<br>简介&amp;帮助：<a href="http://staticfile.org/about.html" target="_blank">关于staticfile.org</a><br>总之这种提供免费的开源前端库文件是造福人类的事情，而且目测速度很不错。推荐之～～</p>
+]]></content>
+    <category scheme="http://whyyou.me/tags/CSS/" term="CSS"/>
+    <category scheme="http://whyyou.me/tags/javascript工具/" term="javascript工具"/>
+    <category scheme="http://whyyou.me/tags/CDN/" term="CDN"/>
+    <category scheme="http://whyyou.me/category/网页设计/" term="网页设计"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[iphone5更新到ios7教程]]></title>
+    <link href="http://whyyou.me/关注互联网/iphone5_iso7.html"/>
+    <id>http://whyyou.me/关注互联网/iphone5_iso7.html</id>
+    <published>2013-06-12T15:17:49.000Z</published>
+    <updated>2013-10-02T13:58:12.000Z</updated>
+    <content type="html"><![CDATA[<p>今天兴致来了，想刷一下ios7，体验一把吧..第一次刷ios7，点恢复被我刷成砖头了，无法激活了，后来只能降级回6.1.4，然后再更新….现在特此记录下过程吧..<br><a id="more"></a></p>
+<h3>第一步 下载ios7固件</h3>
+<p>苹果iOS7.0 Beta1 测试版官方下载（源于苹果开发者中心）（需要开发者账号）：</p>
+<p>•&nbsp;&nbsp;<a href="https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/ios_7_beta/ios_7_beta__iphone_5_model_a1428__11a4372q.dmg" target="_blank">iPhone 5（Model A1428）</a>&nbsp;：仅供北美（美国、加拿大）AT&amp;T版本</p>
+<p>•&nbsp;&nbsp;&nbsp;<a href="https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/ios_7_beta/ios_7_beta__iphone_5_model_a1429__11a4372q.dmg" target="_blank">iPhone 5（Model A1429）</a>：电信/联通国行、港行等，除北美AT&amp;T版本之外</p>
+<p>•&nbsp;&nbsp;&nbsp;<a href="https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/ios_7_beta/ios_7_beta__iphone_4s__11a4372q.dmg" target="_blank">iPhone 4S</a></p>
+<p>•&nbsp;&nbsp;&nbsp;<a href="https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/ios_7_beta/ios_7_beta__iphone_4_gsm_rev_a__11a4372q.dmg" target="_blank">iPhone 4（GSM Rev A）</a></p>
+<p>•&nbsp;&nbsp;&nbsp;<a href="https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/ios_7_beta/ios_7_beta__iphone_4_gsm__11a4372q.dmg" target="_blank">iPhone 4（GSM）</a></p>
+<p>•&nbsp;&nbsp;&nbsp;<a href="https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/ios_7_beta/ios_7_beta__iphone_4_cdma__11a4372q.dmg" target="_blank">iPhone 4（CDMA）</a></p>
+<p>•&nbsp;&nbsp;&nbsp;<a href="https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/ios_7_beta/ios_7_beta__ipod_touch_5th_generation__11a4372q.zip" target="_blank">iPod touch （第五代）</a></p>
+<p>苹果iOS7.0 Beta1 测试版第三方下载（源于ibetadownload等的整理）：</p>
+<p>•&nbsp;&nbsp;iPhone&nbsp;5（Model&nbsp;A1428）：&nbsp;<a href="http://pan.baidu.com/share/link?shareid=487091525&amp;uk=4144241008" target="_blank">百度网盘</a>&nbsp;||&nbsp;<a href="https://mega.co.nz/#!HwRW3Bqb!U_PBaVaYun-i3v1AM5e-rWpAQkYeI2Xdnxcksm_ZmT4" target="_blank">MEGA网盘</a>（国外网盘，国内可用）</p>
+<p>•&nbsp;&nbsp;&nbsp;iPhone&nbsp;5（Model&nbsp;A1429）：&nbsp;<a href="http://pan.baidu.com/share/link?shareid=420116897&amp;uk=4144241008" target="_blank">百度网盘</a>&nbsp;||&nbsp;<a href="https://mega.co.nz/#!qwIGlBQL!GryQXyLOuTdwOaz2FidWrnCO748C65FPS4pOlQgJCg8" target="_blank">MEGA网盘</a></p>
+<p>•&nbsp;&nbsp;&nbsp;iPhone&nbsp;4S：&nbsp;<a href="https://mega.co.nz/#!Dsw0DJqA!UUDsBw-8oJft0sOYkBZeCWM9ijofsCNm1obLlMpmV0M" target="_blank">MEGA网盘</a></p>
+<p>•&nbsp;&nbsp;&nbsp;iPhone&nbsp;4（GSM&nbsp;Rev&nbsp;A）：&nbsp;<a href="https://mega.co.nz/#!S4ADnJbR!HwjgdCAG32lOe7sHnWegzCbWX4EXKCTQTUMtCYpinPM" target="_blank">MEGA网盘</a></p>
+<p>•&nbsp;&nbsp;&nbsp;iPhone&nbsp;4（GSM）：&nbsp;<a href="https://mega.co.nz/#!n15VQBDK!R8jMCW7X_Ojd_NKPShPUYEtVcC9PzaVeisFeZXq1BSg" target="_blank">MEGA网盘</a></p>
+<p>•&nbsp;&nbsp;&nbsp;iPhone&nbsp;4（CDMA）：&nbsp;<a href="https://mega.co.nz/#!GhYRwARb!YvRWUEVLB7BbeumyT0shQHnVphQwuVPjHk8EgFi08n8" target="_blank">MEGA网盘</a></p>
+<p>•&nbsp;&nbsp;&nbsp;iPod&nbsp;touch&nbsp;（第五代）：&nbsp;<a href="https://mega.co.nz/#!Wgwg1YAT!ZJpJCV_7pnyBbAmz54O21DK8s9xA9Vp2gHqP_N0yj3E" target="_blank">MEGA网盘</a></p>
+<p>iOS&nbsp;7支持的设备名单：iPhone&nbsp;4及以上，iPad&nbsp;2及以上，<a href="http://ipad.ithome.com/" target="_blank">iPad mini</a>，iPod&nbsp;touch&nbsp;5。</p>
+<h3>第二步 使用iTunes备份</h3>
+<p>在更新前务必先备份好自己的资料哦</p>
+<h3>第三步 使用iTunes更新</h3>
+<p>本操作基于iphone5已经更新到ios6.1.4，如未更新，请用iTunes或手机下载更新到ios6.1.4，如果是已越狱的用户，也务必需要下载6.1.4固件然后先更新到6.1.4</p>
+<p>更新时, 按住 option 键(windows 为 shift 键)点击[检查更新]，不要点恢复,否则会无法激活，然后等待更新完成哦~~~然后就完成了</p>
+<h3>变砖后修复步骤</h3>
+<p>1. 不要紧张，先深呼吸一下，去除心中的杂念;</p>
+<p>2. 下载 6.1.4 或 6.1.3(4S)固件(官网或者百度搜索下载）；</p>
+<p>3. 进入 DFU 模式：先连接电脑，再将 iPhone 关机，再同时按住 Home 与电源键，直到出现苹果 Logo 时松开电源键(保持按住 Home 键)，直到出现连接 iTunes 的界面;</p>
+<p>4. 按住 option 键(windows 为 shift 键)点击[恢复]，选择 6.1.4 固件;</p>
+<p>5. 点击[恢复]等待完成，即可将机器恢复至纯净的未越狱状态;</p>
+<p>6. 重新按照上文升级 iOS 7 beta 即可。</p>
+]]></content>
+    <category scheme="http://whyyou.me/tags/iphone5/" term="iphone5"/>
+    <category scheme="http://whyyou.me/tags/ios7/" term="ios7"/>
+    <category scheme="http://whyyou.me/tags/固件/" term="固件"/>
+    <category scheme="http://whyyou.me/tags/固件升级/" term="固件升级"/>
+    <category scheme="http://whyyou.me/category/关注互联网/" term="关注互联网"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[杭州滨江创业公司招兵买马（帮发）]]></title>
+    <link href="http://whyyou.me/心情随笔/zhaopin.html"/>
+    <id>http://whyyou.me/心情随笔/zhaopin.html</id>
+    <published>2013-04-19T02:45:24.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p>朋友的一家创业公司，坐落于杭州滨江钱塘江畔，平均年龄25周岁，现在随着业务的展开，现有的技术人才储备已经远远跟不上公司飞速的跳跃式发展。迫切需要年轻的你们来加入，使公司更加年轻，更加富有朝气的蓬勃发展！因此需诚招以下岗位：<br><a id="more"></a></p>
+<ul>
+<li>C++程序员</li>
+<li>市场运营专员</li>
+</ul>
+<p>各自岗位要求如下：</p>
+<h3>程序员</h3>
+<p>职位要求:</p>
+<ol>
+<li>大专及以上学历,计算机及相关专业，应届毕业生或有实际工作经验均可。2.  熟悉C++.windows编程,掌握面向对象编程。3.  善于与他人沟通/合作,具有团队精神,良好的自学能力。</li>
+</ol>
+<h3>市场运营专员</h3>
+<p>职位要求:</p>
+<ol>
+<li>大专以上学历（能力优异者可适当放宽），专业不限（打字熟练）</li>
+<li>有一定的互联网认知力。对社交渠道了解深透（如ＱＱ，微博，空间，贴吧等等）。3.  对互联网行业具有浓厚兴趣，具备良好的沟通能力与谈判技巧。</li>
+<li>良好的学习能力，服务意识，团队合作精神与协调能力。</li>
+<li>具有一定的抗压能力，愿意从事有挑战性的工作，具备解决问题的能力。6.  为人正直诚信，做事踏实，有责任心。<pre>如有兴趣，详情请咨询 QQ1758587898 邮箱iwenyue#qq.com</pre></li>
+</ol>
+]]></content>
+    <category scheme="http://whyyou.me/tags/创业/" term="创业"/>
+    <category scheme="http://whyyou.me/tags/招聘/" term="招聘"/>
+    <category scheme="http://whyyou.me/category/心情随笔/" term="心情随笔"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[怎么样和应聘者谈薪资]]></title>
+    <link href="http://whyyou.me/心情随笔/tanxinzi.html"/>
+    <id>http://whyyou.me/心情随笔/tanxinzi.html</id>
+    <published>2013-04-18T03:21:52.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p>最近公司要招人，薪资这块是个难题，不能太高，不然公司负担不起，不能太低，不然就招不到人啦。研究下这个吧，o(︶︿︶)o 唉.<br><a id="more"></a></p>
+<pre><code><span class="number">1</span>、在你觉得这个人非常符合公司要求的时候，千万不要表现出公司对于这个岗位的迫切程度，否则，还没有谈工资，你已经输了一着，因为聪明的应聘者会从你的只言片语中嗅出点什么，给HR谈薪资带来了难度。
+
+<span class="number">2</span>、在进入实质阶段的时候，即开始谈薪资前，首先要向应聘者说明我们公司的实力不是很强，给的薪资不会很高(即使你是世界<span class="number">500</span>强，建议你也谦虚点)，这一招叫降低应聘者的期望值，是谈判的技巧之一，你先为自己埋下伏笔，也是提醒应聘者有思想准备<span class="comment">;但是同时你还要说：但是我们公司也没有你想象的那么差。这一招叫稳住应聘者，因为，你前面的那一句有可能把优秀的应聘者吓跑了。</span>
+
+<span class="number">3</span>、开始谈薪资了，首先你要问：你的期望工资是多少?这个大家都知道了，有的因聘者抱着搏一把的态度，漫天要价，这时候，你不要紧张，立即作出一个夸张的表情：啊，这么多。这时，把一批故意要高价的人给震住了，没有经验的应聘者就会说：没关系，大家可以谈的。这时，你心里就有数了，哦，看来有回旋的余地，也许和公司的标准差不多，有门。但是，有的人比较实在，你再做什么夸张的表情，也没有用，这时，你同样有数了。
+
+<span class="number">4</span>、接下来，你就问应聘者：你最低的要求是多少?有的应聘者也经常上网，知道一些技巧，会问：公司能提供多少?这时，有的HR没有经验，就把自己的底线交了出去，注意：此时一定要沉住气，仍然不卑不亢，说：你最低的要求是多少?我们公司对这个岗位没有什么规定，你说了以后，我要向领导请示的。这一招叫“乾坤大挪移”，此时，应聘者已经开始动摇了，说出了一个最低要求，此时，你已经基本确定公司能否付得起这个薪水了
+
+<span class="number">5</span>、接下来，你其实已经确定能否招聘这个人了，如果他提的工资低于公司标准，我想：你可以直接答应他，但是实际上你付的薪水比这个高，这一点很重要，就是不要欺骗应聘者，因为有的人可能因为某种原因，暂时答应来，但是市场上他的价值并不止这么一点，你按照市场的价值给他，有利于留住这个人才。但是之前并不告诉他，在他报到的时候，突然告诉他高一些的薪水，往往有奇效，在管理上，这叫：超出对方期望值的事有很强的激励作用。如果，这个人提出的薪水和公司的标准有一定的距离，这时，你要考虑是否用公司其他的福利来说服对方，比如：交通补贴、年终奖、住宿、通讯补贴等，来说明总收入才能代表一个人的价值。
+
+<span class="number">6</span>、还有一招叫：“故意降低法”，本人独创，专门对付那些漫天要价的应聘者，他要<span class="number">5000</span>，我觉得他只值<span class="number">3500.</span>我就会说：我们公司只能提供<span class="number">2500.</span>这时，往往把那些人逼得把自己的底价亮出来，其实，做HR时间长了，基本上对方值多少钱，你心里应该是有数的，他把底线亮出来以后，你再和他谈判，就轻松多了，如果他同意这个薪资，我就会用第五点，即“多付一点点”，按照公司的标准给他，但事先不告诉他。但是有的HR拼命的压应聘者的工资，这个不可取，因为你要长久的留住他，就要公平的对待他，否则，即使他来了公司，也是人在曹营心在汉，迟早要走的。
+
+<span class="number">7</span>、还有一点，就是一定要和应聘者谈好试用工资和转正工资，有的HR只谈试用工资，说转正后再谈，这不可取，你要给大家一个明确的目标，而且，试用结束的时候，通常公司和个人对自己的评判是不一致的，这时再谈判，如果崩了对双方都是一个损失。</code></pre>
+]]></content>
+    <category scheme="http://whyyou.me/tags/创业/" term="创业"/>
+    <category scheme="http://whyyou.me/tags/员工薪资/" term="员工薪资"/>
+    <category scheme="http://whyyou.me/tags/招聘/" term="招聘"/>
+    <category scheme="http://whyyou.me/category/心情随笔/" term="心情随笔"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[现代上班族众生相，你是不是中枪啦？]]></title>
+    <link href="http://whyyou.me/心情随笔/shangbanzu.html"/>
+    <id>http://whyyou.me/心情随笔/shangbanzu.html</id>
+    <published>2013-02-22T08:52:22.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p>上班时候，你是不是每天中午都要纠结“吃什么”?是不是经常感觉有人CALL你? “最真诚”的一面是不是经常在挂掉电话后出现?……最近，一组名为《现代上班族的特色》的系列漫画在网络走红。年近岁晚，压力渐增的上班族仿佛一下子找到共鸣，纷纷感慨“中了好几枪”、“各种无奈各种伤不起”……<a id="more"></a></p>
+<p><img src="http://whyyou.me/usr/uploads/2013/02/2397111669.jpg" alt="上班族3.jpg"></p>
+<p><img src="http://whyyou.me/usr/uploads/2013/02/3871083240.jpg" alt="上班族.jpg"></p>
+<p><img src="http://whyyou.me/usr/uploads/2013/02/3634852485.jpg" alt="上班族-1.jpg"></p>
+<h3>“内涵帖”勾勒职场众生相</h3>
+<pre><code>    这组漫画共<span class="number">20</span>幅，以诙谐的笔触、夸张的人物形象，勾勒出一幅职场众生相，其所描述的 “手机幻听症”、“周一恐惧症”、“网络依赖症”等情形被网友戏谑地总结为 “上班族综合征”。 
+
+    行色匆匆，是写字楼白领们的基本特征。这组漫画中的一幅描绘了电梯中的常见情景——刚进电梯的甲连续地按着关门键，站在一旁的乙忍不住在心里吐槽 “这么做门并不会关得比较快好吗”。对大多数上班族来说，每天按惯例会困扰他的难题之一是“中午吃什么? ”我们“互联网的一些事”的小编也经常干这事，杯具啊。当漫画中的甲向同事凯文询问“中午吃什么”时，凯文脸部肌肉僵硬地回答 “问些简单点的问题吧<span class="exclamation_mark">!</span>例如宇宙的起源是什么”。
+
+　　<span class="number">20</span>幅中有两幅以夸张的表现手法反映了白领们忙于工作、疏于与朋友联络的问题。漫画将 “总和朋友说‘找时间出来吃饭’，但后来没约成”作为“现代上班族特色之七”，这幅漫画的场景是墓地里两座相邻墓碑的对话，“我现在终于有时间了。 ”“咱们也只能吃祭拜饭了。”与之形成鲜明对比的，是第<span class="number">14</span>幅漫画所总结的“大家都约不到你的时间，客户除外”，当漫画中的主人公已经白发苍苍、拄着拐杖，只要客户一句 “混蛋，你什么时候有空”，就立刻应声道“主子，任何时候都有空”。 
+
+　　漫画很快在写字楼走红。在张江高科技园区上班的小谢第一时间在微博上转发了这则“内涵帖”，并加上评论“中了好几枪”。小谢说，他的很多同事也看到了漫画，都觉得非常形象、道出了上班族的心声，“对比自己符合多少个症状，觉得又好笑又辛酸”。</code></pre>
+<h3>白领年关焦虑情绪蔓延</h3>
+<pre><code>　　其实，这组漫画已经在网上发表了一段时间，但眼下年近岁晚，压力倍增、焦虑蔓延的上班族在漫画中找到了共鸣，使之在线上线下重新红火了起来。 
+
+　　在淮海路商圈一家公关公司上班的夏小姐告诉记者，看到漫画的最后一幅，她在办公室忍不住哈哈大笑了起来，还拉着坐在旁边的同事一起来看。这一幅漫画中的女白领摔下电话，目眦欲裂地发着飙，作者悠悠地进行旁边：“你最真诚的一面会在挂掉电话后出现，尤其对客户讲完电话后，绝对是真情流露。 ” 
+
+　　“总结得太到位了，完全是照着我们画的<span class="exclamation_mark">!</span> ”夏小姐表示，年底客户们有很多推广要求，她近来感到压力倍增。有家大客户提出了在她看来 “不可能完成的任务”，并屡次强调“这应该不难吧?”，还总是以“明年的合作就看这个活动了”相胁迫，令本就遭受年关焦虑的夏小姐非常恼火。 “客户是老大，电话里总要对他们如春风般温暖，发飙、吐槽都是挂了电话后的事情，不然会憋死的<span class="exclamation_mark">!</span> ”夏小姐感慨道。 
+
+　　各种考核、年终总结、年后计划、客户答谢……任务铺天盖地纷至沓来;“又荒废了一年”、“明年再不升职就跳槽”、“以前同学年薪都翻我两倍了”……内心焦灼也令白领们备受煎熬。据某本土人力资源机构的一项统计，逾九成以上的职场人士在年底会受到焦虑、紧张等负面情绪的影响，甚至感到“越接近年关，工作越做不完”。因此，把“现代上班族特色”看作自画像聊以自慰，并不是一件奇怪的事。</code></pre>
+]]></content>
+    <category scheme="http://whyyou.me/tags/上班族/" term="上班族"/>
+    <category scheme="http://whyyou.me/tags/中午吃什么/" term="中午吃什么"/>
+    <category scheme="http://whyyou.me/tags/屌丝奋斗史/" term="屌丝奋斗史"/>
+    <category scheme="http://whyyou.me/category/心情随笔/" term="心情随笔"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[你能想象一个域名备案了半年了还是失败？]]></title>
+    <link href="http://whyyou.me/心情随笔/gouri-beian.html"/>
+    <id>http://whyyou.me/心情随笔/gouri-beian.html</id>
+    <published>2012-12-27T09:34:26.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://whyyou.me/usr/uploads/2012/12/1462789877.jpg" title="147135434.jpg"><img src="http://whyyou.me/usr/uploads/2012/12/1462789877.jpg" alt="147135434.jpg"></a></p>
+<p>SHIT,很难想像我这域名备案了接近半年了，前前后后提交了6、7次了，每次都是退回，可知道我心里有多难过o(︶︿︶)o 唉。狗日的管局，狗日的备案！！！！</p>
+<p>于是乎，这台买了万把RMB服务器空了大半年，让我情何以堪啊！！！！</p>
+<p>去你妹的备案</p>
+]]></content>
+    <category scheme="http://whyyou.me/tags/备案/" term="备案"/>
+    <category scheme="http://whyyou.me/tags/服务器/" term="服务器"/>
+    <category scheme="http://whyyou.me/category/心情随笔/" term="心情随笔"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[为什么如此多的创业公司都失败了？]]></title>
+    <link href="http://whyyou.me/关注互联网/many-startups-failed.html"/>
+    <id>http://whyyou.me/关注互联网/many-startups-failed.html</id>
+    <published>2012-10-11T02:55:17.000Z</published>
+    <updated>2013-10-02T12:48:28.000Z</updated>
+    <content type="html"><![CDATA[<p>为什么如此多的创业公司都失败了呢？创业时期,，多看些这些有助于发现自身问题~~吸取教训！！！！<br><a id="more"></a></p>
+<hr>
+<p>创业公司的成功率不是我们能控制的，1000家中可能有那么2家能够估值1亿美元。我有40年的投资经验，每每见到创业公司创始人拉着脸说：“我们差点就让它出现在用户面前了”，我就知道他们的产品挂了，都没来得及获得用户反馈……但我经常给的建议是：让它们出现一周吧，看看有任何人注意它吗? <span id="more-164461"></span>他们有认真地回应吗？根据我多年的经验，一家创业公司会挂掉往往有着以下不足：</p>
+<p><strong>1. **</strong>你的产品不是围绕解决问题而生的。**很多创始人问我为什么把“客户发现”分成“问题”发现、“解决方法”发现两步，其实没什么，就是强调你得先解决了问题，才能指望顾客把脸贴上来。</p>
+<p>为用户提供一些棘手问题的解决方法能很好地锁住用户，这比你凭空想象出一个产品然后花2万个小时到处推广要效果好，所以你应该面对真正的、实质性的需求，因为没有了热情的客户，最有激情的企业家也无法改变什么。Dropbox是个很好的例子，它像一道曙光一样解决了数百万用户急需解决的、痛苦的问题，所以这个产品是如此的好、有用、简单，就像一开始的Hotmail、Gmail一样深得人心并迅速传播。</p>
+<p><strong>2. **</strong>没给公司找到正确的轨道，不能塑造一个可持续、可重复的利润引擎** 不是每个创业公司都能像FB、Square、Google那样伟大，而你要做的就是知道你的创业公司站在什么位置，保持创始团队的目标一致，如果投资者跟创业者的想法是一致的那更好。</p>
+<p>很多创业公司都希望自己的产品面对的是一个利基市场、会很快发展成价值1亿美金的公司，他们在快速盈利的想法中挣扎着，迫不及待地去上市。</p>
+<p>但你要给自己的公司找到正确的轨道，保证其一个可持续的、可重复的利润引擎。所以在急着盈利、上市的百般挣扎中坚持开发用户来识别潜在的利基市场、客户群、确保你做的就是他们需要的服务，保持下去就不会出纰漏。</p>
+<p><img src="http://whyyou.me/usr/uploads/2012/10/1133697248.jpg" alt="businesses-going-down.jpg" title="businesses-going-down"></p>
+<p><strong>3. **</strong>解决绝方案不出众** 数百个企业从来不会花一天Google它自己的产业，有些人透过用户来完善产品则仅仅为了打败对手的产品，抛开那些杂七杂八的心思，真正为用户提供好的解决方案，你就不会这样像个无头苍蝇样乱撞了。</p>
+<p><strong>4. **</strong>团队停滞不前时得过且过 **另一个我见过最糟的情况就是一个团队停滞不前，用户增长缓慢，一周接一周没什么大起色。但是团队人员却依然照旧工作，没人提及这个核心问题，他们在等什么？</p>
+<p><strong>5. **</strong>不懂得要进先后退的道理** 很多企业一边拼命的营销、一边把未解决的客户问题放在客服邮箱里，并抱着短期解决不了就敷衍了事，不了了之的态度。能够使一个企业伟大的原因在于回过头看那些意味着“失败”的事件：用户采纳率低、增长缓慢、推荐度低，暂时别想着扩张更多的用户，在你解决那些让客户非常痛苦地问题前。</p>
+<pre>本文转自 [雷锋网](http://www.leiphone.com/12924-keats-many-startups-er-suck.html)</pre>]]></content>
+    <category scheme="http://whyyou.me/tags/创业/" term="创业"/>
+    <category scheme="http://whyyou.me/tags/创业建议/" term="创业建议"/>
+    <category scheme="http://whyyou.me/tags/创业失败/" term="创业失败"/>
+    <category scheme="http://whyyou.me/category/关注互联网/" term="关注互联网"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[互联网法则11条简略]]></title>
+    <link href="http://whyyou.me/关注互联网/11tiao.html"/>
+    <id>http://whyyou.me/关注互联网/11tiao.html</id>
+    <published>2012-09-03T06:05:57.000Z</published>
+    <updated>2013-10-02T13:53:20.000Z</updated>
+    <content type="html"><![CDATA[<p>这是上次公司让看的一本书，我简略的先发一段书中所说的内容(讲诉了互联网产品的11条重要法则)，之后抽空写些感想吧。这本书内容很好，我觉得看了其实还满受启发的。<a id="more"></a></p>
+<p>1. 二选一 法则</p>
+<p>互联网要么是项业务，要么是个媒体</p>
+<p>2. 互动性法则</p>
+<p>没有互动，你的网站和品牌将一无所成</p>
+<p>3. 通用名法则<br>互联网品牌取通用名，就是自寻死路。<br>通用名是指：一类生物或事物的共有词</p>
+<p>专有名</p>
+<p>4. 专有名法则<br>品牌名在互联网上独立存在，因此最好取个好名字</p>
+<p>策略1： 名称要简短<br>策略2：名称要简单<br>策略3：名称应该能提示品牌所属品类<br>策略4：名称应该独一无二<br>策略5：名称应该押头韵<br>策略6：名称应该说的出去</p>
+<p>策略7：名称应该有震撼力<br>策略8：名称应该人格化</p>
+<p>5. 唯一性法则</p>
+<p>要不惜一切代价，避免沦为品类第二名，在互联网里，只有第一，没有第二</p>
+<p>6. 广告法则</p>
+<p>网下广告比网上广告多得多。尽量避免在自己品牌网站里做广告，因为用户不喜欢。</p>
+<p>7. 全球性法则</p>
+<p>互联网将打破壁垒、疆界、国界</p>
+<p>8. 时间法则</p>
+<p>立即行动。必须快速行动，第一个进入顾客心智，并且集中焦点。</p>
+<p>9. 自负法则<br>最严重的错误，莫过于相信自己无所不能。</p>
+<p>策略1：保持品牌经营焦点<br>策略2：增加你的市场分额<br>策略3：扩展你的市场<br>策略4：全球化<br>策略5：主导品类</p>
+<p>10 分化法则</p>
+<p>人人都在谈论融合，然后世界却在分化</p>
+<p>11. 重塑法则<br>互联网革命将重塑我们生活的方方面面</p>
+]]></content>
+    <category scheme="http://whyyou.me/tags/互联网/" term="互联网"/>
+    <category scheme="http://whyyou.me/tags/法则11条/" term="法则11条"/>
+    <category scheme="http://whyyou.me/category/关注互联网/" term="关注互联网"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[使用云盘、svn同步及管理你的代码]]></title>
+    <link href="http://whyyou.me/程序员/yun_svn_for_source.html"/>
+    <id>http://whyyou.me/程序员/yun_svn_for_source.html</id>
+    <published>2012-07-14T08:17:59.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p>以前一直把代码托管在国外的代码托管服务上，如googlecode、github等，方便在公司、家里、其他电脑上访问代码、同步修改，现在国内云盘那么多，我想了想能不能同步我svn本地的版本库呢，来吧，跟着我动手解决~~~~</p>
+<p>大家都知道，svn可以创建本地版本库，如果你把本地版本库创建在云盘的同步目录中，那就可以直接同步svn版本库了。</p>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/4145881559.jpg" title="yun_svn.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/4145881559.jpg" alt="yun_svn.jpg"></a></p>
+<p>下面我以 坚果云 为例来说明如何同步你的本地svn库<br><a id="more"></a></p>
+<h3>坚果云安装</h3>
+<p>坚果云下载： <a href="https://jianguoyun.com/" target="_blank"><a href="https://jianguoyun.com/">https://jianguoyun.com/</a></a>，下载windows版本，安装完成后，设置一个同步目录，以下是我设置的同步目录：E:\我的坚果云</p>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/886727036.jpg" title="目录.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/886727036.jpg" alt="目录.jpg"></a></p>
+<h3>新建SVN代码版本库</h3>
+<p>新建一个代码库目录，并在里面创建你的代码项目目录，并创建你的svn本地库，如下图：</p>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/1500748130.jpg" title="svn.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/1500748130.jpg" alt="svn.jpg"></a></p>
+<h3>checkout你的版本库并管理</h3>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/3821163485.jpg" title="checkout.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/3821163485.jpg" alt="checkout.jpg"></a></p>
+<h3>管理代码</h3>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/1654882074.jpg" title="checkin.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/1654882074.jpg" alt="checkin.jpg"></a></p>
+<h3>打开坚果云同步上传</h3>
+<p>打开坚果云，并开启同步上传之后，你在任何一台电脑都可以用svn访问你的代码，另外同步的是加密的svn文件并不是代码文件..同步结果如下：</p>
+<p><a href="http://whyyou.me/usr/uploads/2012/07/285119004.jpg" title="yun_s.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/285119004.jpg" alt="yun_s.jpg"></a></p>
+<pre>PS: 坚果云，还可以同步多个文件夹，可以多人访问，故也可以将代码库建立在非安装时候设置的同步目录中，可以多人访问，也同时实现了多人操作svn的可能~~具体自行研究~~~</pre>]]></content>
+    <category scheme="http://whyyou.me/tags/云存储/" term="云存储"/>
+    <category scheme="http://whyyou.me/tags/坚果云/" term="坚果云"/>
+    <category scheme="http://whyyou.me/tags/代码同步/" term="代码同步"/>
+    <category scheme="http://whyyou.me/tags/svn/" term="svn"/>
+    <category scheme="http://whyyou.me/tags/svn代码管理/" term="svn代码管理"/>
+    <category scheme="http://whyyou.me/tags/远程代码/" term="远程代码"/>
+    <category scheme="http://whyyou.me/category/程序员/" term="程序员"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[跳出你的思维，IT界降级论]]></title>
+    <link href="http://whyyou.me/关注互联网/degrading-for-it.html"/>
+    <id>http://whyyou.me/关注互联网/degrading-for-it.html</id>
+    <published>2012-07-09T13:22:11.000Z</published>
+    <updated>2013-10-02T15:21:54.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://whyyou.me/usr/uploads/2012/07/4206300696.jpg" alt="boxing.jpg"><br>好文分享：《降级论》，这篇文章在某博客看到，个人觉得写的很不错，故转载分享了。混在IT界，不得不学的降级理论，也许你的思维已经局限了你的思考模式，何不跳出来你的思维，不要局限于你所在的行业，所学的知识，试试这篇文章所说的降级理论呢？原文内容如下：<a id="more"></a></p>
+<p>几乎一年没有写博客了，说没时间那是借口，唯一的原因是，年纪越大越发觉自己肤浅。有些想法还没提笔，就发现很幼稚，就不敢发出来贻笑大方了。这次先给大家说个小故事：</p>
+<p>从前有三个屌丝，聚在一起做网络，提供免费的网络服务，砸锅卖铁，通宵达旦，除了卖肾啥都做了。3年后终于做到了五百万用户，对于年轻人来说，能把五百万人玩弄于鼓掌之间，已经是很牛逼轰轰的事了，不过用户越多，成本越高，每年服务器、带宽租金、房租水电、广告运营等成本，已经达到了十七八万，屌丝们不得不面对一个终极问题：如何盈利？</p>
+<p>屌丝们定了三盘沙县水饺，围着一箱子的冰啤酒开始计算：按照最近一月的登陆情况来看，四百万个账号已经不活跃了，真正有商业价值的只有一百万人，如 果开通xx功能，收点高级会员费，让其中1%的人升级为高级会员，每年付30块钱年费，那么每年收入就是100万x1%x30元=30万元！不错嘛， 扣除十七八万的运营成本，还剩毛利润12万，每个屌丝年底能分到4万大洋，如果按照打工者的算法，这三个人每人月薪3333元，木有奖金，木有津贴、木有任何福利，上班还得带自家的电脑。</p>
+<p>尽管如此，屌丝们还是激动得咬了一口水饺：感谢苍天！我们终于要盈利啦！那一夜，人们看到三个发疯的屌丝在屋顶翩翩起舞。</p>
+<p>韩寒说，中国人民是最有忍耐力的族群，一点好处就感激涕零。他一定不知道，IT创业界里的屌丝，才是这群傻逼中的战斗机。他们可以平静地忍受每年都持续亏钱，而且还能信心十足的对所有人说公司的状态非常好，如果有一天居然收支平衡了，他们会激动的趁夜难眠，比北朝鲜倒掉还开心。</p>
+<p>本文开头的三个屌丝，其实是非常幸运的，至少能做到月薪3333元。大部分的屌丝在第一年做到几万用户的时候就会挂掉，原因众多，最主要要的是意志太弱，受不了最初的寂寞；意志稍微坚强点的会在第二年第三年慢慢挂掉，原因主要是资金断裂、团队分裂；能成功熬到第四年还没饿死、还没被口水淹死、还没被肠胃病颈椎病腰肌劳损折磨死的，甚至员工不减反增的，基本上属于神仙级别了。</p>
+<p>我为什么要说三个屌丝的故事呢。首先是因为这是身边每天都在发生的故事，其次是因为感到可惜，IT界在我眼里一直是一个无比高级的职业，聚集着全球最聪明、最富有的人类精英。以IT创业界的青年们的智商，他们可以做成任何一件事情，包括改造银行到制造汽车到发射航天飞机 。结果这帮人却整天在蓬头垢面得为3k的月薪而挣扎，太悲催了。</p>
+<p>为什么用悲催这个词？ 如果一个人生下来就在山沟沟里，一辈子都没机会去见什么好东西，这不叫悲催，这只叫苦难；而如果一个人生出来有一个奇怪的特异功能：皮肤出来的汗水会凝结成昂贵的水晶，本来只靠出汗就能赚钱，结果这傻逼居然觉得出汗这个行为太低级，做手术把自己的汗腺全给切了，而且丝毫没有意识到他做了什么傻事，这才叫真的悲催。</p>
+<p>我们IT界中的很多人，生下来就是有这个出汗成水晶的特异功能的，正是因为这种与众不同，这群人能混入牛逼的大学，整天打网游还能写出像样的毕业论文， 拿到学位，进外企，考CPA，做咨询、做证券分析，研究高分子材料，做电子商务，做云计算……一级一级的上升，直到有一天，发现身边的人里，已经没有一个不是CPA，不是咨询师，不是高级研究员了，身边的人全是业界精英，个个都超级强悍。在这个所谓的高级圈子里，自己并没有任何过人之处，只不过是just another analyst而已。在高级圈子里拼的头破血流，最后也只能混到给台湾人整理数据而已。莫然回首，发现当年的血气方刚、年少时的无限梦想，进化成了一身肥胖的赘肉。这个时候，有个旁观者说：“升级到头了，该降级了”</p>
+<p>当一个社会疯狂鼓吹快节奏的时候，一定需要有人来宣扬慢生活；当全社会跟打了鸡血似的吹捧升级的时候，一定需要有人来说说降级论。</p>
+<p>IT青年们喜欢打游戏，喜欢升级。他们的人生也和游戏一样，沉醉于不停的升级中，不仅喜欢升级自己手上的技术，把MySql改成MongoDB，把Apache升级为Nginx，在Mac上装Ubuntu，Ubuntu里再装个虚拟机去跑Mac OS……IT青年们也喜欢升级自己的人生，从程序员升级到项目经理，再升级到技术总监或产品总监，再升级到合伙人……</p>
+<p>在不断追求升级的过程中，所面临的一个很大事实是：当一个人从A刚升级到A+级的时候，其实这个人的能力层级依然只是A的层级，还未胜任A+的层级，他必须要到A+的后期，才可以胜任A+。就好像一个高中生，高考完之后，虽然理论上已经属于大学生了，但是他的实际能力依然只是高三毕业的水平，除非他全部pass了大一的期末考试。同样的道理，这个世界上有很多人的身份和称谓，都是在描述“未来的自己”，而不是现在的自己。当你从销售员升级为销售经理的时候，你自我感觉很好：“我现在是销售经理了”，但是这个时候 ，你并未通过公司对你作为销售经理这一年的工作成果的考核，你只是一个“未来可能是合格的销售经理”的前身。如果年终考核你失败了，那么这一年最准确的描述是：一个销售员，占了整整一年销售经理的位子，最后失败了。而且这一年一定会过的很累，因为通过考核的其他销售经理，才是真正胜任这个层级的人，跟一帮真正属于这个圈子的人厮杀，就好像拳击馆里当陪练的小角色，去和泰森比了一年的武，怎么可能不累呢？</p>
+<p>当我07年进入互联网行业的时候，就是那个拳击馆里陪练的小角色，我被迫去跟全国各地的泰森比拼，结果累的半死。后来我开始反思最初的目标，为什么要在自己身上挂一个“拳击高手”的招牌，被那么多泰森追着打？ 我把这块招牌卸了，找个完全没练武的人去比拼，不是更容易赢么？于是果断照做，去找了一个没人懂拳击的小乡村，做了纯英文的<a href="http://www.tucia.com" title="photo editing services online" target="_blank">Tucia.com</a>(需翻墙)，只做国外的业务。在那个地方，作为一个知名武馆的拳击小陪练，我成了村子里拳击技术最高超的人，受人仰慕，还开武馆教人拳击，活的非常滋润，而且在教人拳击的过程中，自己的拳术也比以前提高了很多，发展出一套属于自己的拳法，我虽然进不了泰森们的大圈子，但他们也进不了我的小圈子。</p>
+<p>关于圈子，有一个很赤裸裸的现实：不会是你进入圈子，只能是圈子进入你。很多人会四处找关系，“帮我介绍给xxx吧，我想进入你们的圈子”，这样的人是永远进不去这个圈子的，因为圈子的天性是，永远追求更高一个层级的人。而我们的大部分人，其实都在以低一级的属性，占着更高一级的位子，徘徊在更高一级的圈子边缘，与更高一级的人竞争，幻想着自己可以升级到那个圈子里去。也许永远进不去，悲催的努力一辈子；也许运气好，某一天真的进入这个圈子了，但那个时候又会有下一个目标，希望进入更高级的圈子，这是一场没有终点的战斗。永远的追求升级，永远的累。</p>
+<p>有没有想过降级呢？</p>
+<p>如果一个来自微软的高级工程师，辞职去一个养猪场做开放平台经理，那么他的到来不仅会让养猪圈感到无比荣幸，更是意味着，利用他在IT界训练出来的高效工作方式和逻辑思维能力，他可以掀起一场养猪行业的革命，使得20年后才会出现的人性、高效、开放、协作、健康的养殖方式提前到达。在这场革命中，他会活的非常有价值。这种价值，在原先的圈子里，是完全体验不到的，因为他此前的所有工作，只是在满身疮痍的windows系统上不停的打补丁，无论打多少都逃不开产品衰落、被人鄙视的命运。</p>
+<p>很多人的命运，都像是上面那个微软工程师。只需要降级，就能创造更大的价值，也能获得更大的满足。那为什么不呢？为什么要死死抱着那个所谓的“高级职业”不放呢？</p>
+<p>去年我曾犯贱去趟了移动互联网的浑水，做了个手机app，刚开始的时候感觉很高级，但很快，铺天盖地的竞争对手就出现了，我又发现自己陷入了07年一样的场景：作为一个小小陪练，我他妈的又被一帮泰森们给围住了。当泰森中的战斗机—-微信，变得无比牛逼之后，我就知道，战胜这群泰森是绝对不可能的事情了。于是我再次投靠了“降级论”，把自己从牛逼哄哄的移动互联网行业，降级到了一个被人不齿的低级项目：<a href="http://www.tuciababy.com" title="宝宝摄影，儿童写真，百日照，亲子照，满月照" target="_blank">Tucia Baby</a>。</p>
+<p>这个项目虽然是传统行业，但是我们基本上是按照互联网产品的思路去做的，除了拍摄需要来店里以外，其他一切，包括营销、预约、客服、后期、选片、取片、客户关系等，所有环节都放在网络上，尤其是微博（<a href="http://weibo.com/tuciababy" target="_blank">@tuciababy官网</a>）。当然，最重要的是，作为一个脑残的果粉，我按照iPhone的做工品质去要求每一张作品，必须达到我们能力可以做到的最好水准，不计成本的最好水准，才允许送给客户。正式接客不到两个月时间，虽然还不敢自称成功，但目前已做到几乎每天都客满，口碑很好，财务上已实现盈利，未来相信一定会比大部分app开发者更光明。（ps:我们没有请工商、税务、城管去吃饭喝酒泡桑拿，也没有塞钱给任何政府机关。当你的产品真的用心做到很好的时候，其实你不需要讨好任何人的。）</p>
+<p>这个项目让我沉思了很久：07年我曾把一个纯纯的web2.0网站做到了alexa中国区前1000名（如有质疑，请查询2010年附近的tucia.com排名），结果一路亏损，到最后只剩下一个员工；11年我把那个纯纯的app做到苹果官方推荐区<span style="text-decoration: line-through;">免费榜</span>的第一位（如有质疑，请看<a href="http://ww3.sinaimg.cn/bmiddle/823ddc58gw1dkiqty41ukj.jpg" target="_blank">点此看截图</a>），那段时间每天四五千iPhone安装量，结果一路烧钱，到最后濒临关闭；而如今，我只需把自己从纯纯的互联网降级下来，做一些看起来有些“低级”的项目，居然就能立即实现收支平衡。</p>
+<p>除此以外，我还发现一个现象，中国消费者在与奸商们的长期斗争中，已经培养出了一种非常苦B的品质：只要不被坑，他就谢天谢地。如果商家严格做到了承诺的每一件事情，客户就会感动的泪如泉涌。如果商家不仅做到了所有承诺的事情，还很贴心的提供了一些额外的服务（比如我们给每位客户赠送非常好吃的樱桃和昂贵的进口巧克力作为点心），那么客户就会激动的哭天喊地、奔走相告，推荐给他认识的每一个人。</p>
+<p>其实这片肮脏的国土，就是上天赐予IT青年们的最好机会。</p>
+<p>在一个不会练武的村子里，只要你会打两拳，你就是拳术最厉害的人；在一个没有服务意识、忽视产品质量的土地上，只要你用心做服务，用最高的标准去要求自己，你就会成为这块土地上最出色的商家；在一个没有现代管理意识，不懂网络、不懂微博、不懂用户体验、不懂口碑传播的粗犷社会里，你只需要把之前花在IT产品上的心思的10%拿过来用，就可以秒杀一切天朝对手。</p>
+<p>所以，</p>
+<p>IT青年们，当你在为网站的转化率苦苦思索的时候，当你在为app的活跃度辗转反侧的时候，当你在为融资计划苦苦哀求各界大佬引荐的时候，也许犯了一个错误，也许你们的脑子最值得闪光的地方，不是去悲催的IT界当炮灰，而应该是去按摩界、餐饮界、烧烤界、早餐界、理发界、送花界、纺织界、装修界、婚庆葬仪界、成人用品界、现代养殖界、有机蔬果界、个人护理界、汽车修理界……与IT界相比，这些行业的确无比低级，他们的老板连qq都会发音成“抠抠”，他们的员工一辈子都没用过Email；跟他们解释什么是SEO，什么是用户体验，什么是数据挖掘，他们会在听你说完之前就开枪自杀掉。正是因为如此，这些行业才是如此的不堪一击。正是因为如此，当智商高达147的IT青年还在为3k薪水拼命、而智商不到50的烧烤店老板正坐在porsche里玩着前面那位青年开发的app的时候，我就忍不住仰望星空。</p>
+<p>这些原始而纯粹的行业，正在等待IT精英们的降级，如同蒲公英一般的伞兵，在黑夜里从天而降，长驱直入，用最智慧的产品、最优质的服务拯救这些早就该死的行业，屌丝的生命将会绽放出银色的羽翼，无比丰满，无比性感。</p>
+<p>最后注意，请珍惜生命，远离我的微博：<a href="http://weibo.com/meditic" target="_blank">@meditic</a></p>
+<p>原文作者：@meditic，本人转自：<a href="http://meditic.com/degrading-for-success/" target="_blank">降级论</a></p>
+]]></content>
+    <category scheme="http://whyyou.me/tags/移动互联网/" term="移动互联网"/>
+    <category scheme="http://whyyou.me/tags/互联网/" term="互联网"/>
+    <category scheme="http://whyyou.me/tags/降级论/" term="降级论"/>
+    <category scheme="http://whyyou.me/tags/商业模式/" term="商业模式"/>
+    <category scheme="http://whyyou.me/category/关注互联网/" term="关注互联网"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[瀑布流主题皮肤]]></title>
+    <link href="http://whyyou.me/typecho/waterfall_theme.html"/>
+    <id>http://whyyou.me/typecho/waterfall_theme.html</id>
+    <published>2012-06-30T15:56:30.000Z</published>
+    <updated>2013-10-07T04:40:28.000Z</updated>
+    <content type="html"><![CDATA[<p>我已经很久没有更新过博客了，或许是我懒惰了吧，其实这些日子可写的东西不少，可是就是没心思，也不知自己现在的状态到底在忙些什么，然后呢，这个瀑布流主题，其实我自己也用了大半年了都，有些人来咨询过，我也分享出去了，只是一直都没发布，没找到理由发布，因为主题还没很完善，我一直也都没去更新它，虽可以使用，还有可以优化的空间的~~~<br><a id="more"></a></p>
+<pre><code>　　其实，老早就计划过这个主题要分享的，今天偶然看到<span class="typedef">typecho讨论区里，某某人提了下这个主题，好吧，想想还是先发布吧，优化不优化，喜欢的人总会使用，也会自行去优化的，不是么？</span></code></pre>
+<h3>主题名称</h3>
+<p><p>       fresh love，清新的爱恋</p>
+<h3>首页效果图</h3>
+<p><a href="http://whyyou.me/usr/uploads/2012/06/2312941230.png" title="screenhot.png"><img src="http://whyyou.me/usr/uploads/2012/06/2312941230.png" alt="screenhot.png"></a></p>
+<h3>下载地址</h3>
+<p>主题下载，内含所需插件<br><a href="http://whyyou.me/usr/uploads/2012/06/1261383383.zip">FreshLove</a></p>
+<h3>注意事项</h3>
+<p>1. 请先将主题下载里的插件，先启用，后再激活主题</p>
+<p>2. 请保留底部版权。</p>
+<p>3. 本主题 使用本人开发的网络版缩略图，如果是本地版（localhost）时候，则无法显示缩略图，请谅解！</p>
+<pre>希望大家喜欢这个主题皮肤，有什么问题，可以博客留言或email或微博私信等等。</pre>]]></content>
+    <category scheme="http://whyyou.me/tags/typecho/" term="typecho"/>
+    <category scheme="http://whyyou.me/tags/typecho皮肤/" term="typecho皮肤"/>
+    <category scheme="http://whyyou.me/tags/瀑布流/" term="瀑布流"/>
+    <category scheme="http://whyyou.me/tags/waterfall/" term="waterfall"/>
+    <category scheme="http://whyyou.me/category/typecho/" term="typecho"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[走向产品是程序员的第三条职业选择]]></title>
+    <link href="http://whyyou.me/程序员/go_to_product.html"/>
+    <id>http://whyyou.me/程序员/go_to_product.html</id>
+    <published>2012-06-20T05:51:13.000Z</published>
+    <updated>2013-10-02T13:36:18.000Z</updated>
+    <content type="html"><![CDATA[<p>最近从程序员转岗到管理岗位有一个月时间了，这段时间适应的有点痛苦，压力巨大。也很久没有写东西了，下午看到这篇文章觉得不错，就转到博客来了，希望能给转岗的朋友们看看，除了技术、管理，还有第三条路 产品经理。</p>
+<pre><code>千千万万的程序员们一直困惑“程序员的前途如何”、“程序员工作到底能干多久”的问题。目前比较普遍的认识，程序员的职业通道有两条进阶路线。一条是技术路线，即由程序员、高级程序员、系统分析师，到架构设计师。在这条路线上，立足于从业务模型到计算机软件模型的转换，成为高端的软件技术工作者。另一条是管理路线，即由程序员，经开发小组负责人、项目经理，再到企业中高层管理者。程序员加强自己管理意识的培养，多站在组织的角度来分析问题和解决问题，成为优秀的管理者，甚至职业经理人。 </code></pre>
+<p><a href="http://whyyou.me/usr/uploads/2012/06/2143655281.jpg" title="走向产品是程序员的第三条职业通道"><img src="http://whyyou.me/usr/uploads/2012/06/2143655281.jpg" alt="走向产品是程序员的第三条职业通道"></a></p>
+<p>近年来，产品管理成为企业多产品经营形势下一个越来越受重视的管理课题。特别是知识经济环境下，诸如互联网与软件、创意、传媒等现代新型产业链中，其几乎可以忽略不计的复制成本，有竞争力的产品与优秀的产品管理成为了制胜的关键。基于产品的商业化运营，在越来越具聚合效应的网络时代，扁平经营、草根聚合、精准营销、直通车服务等全新的经营环境常常造就了赢者通吃的局面，以产品为中心的企业管理逐渐形成独立的产品管理体系，被众多企业所关注和采用。</p>
+<p>在软件企业中，随着产品管理的兴起，可以说，走向产品，是程序员在技术与管理之外的第三条职业通道。越来越多的程序员开始转型做产品工作，特别是对那些具有创业意识的程序员而言，走向产品是一条必经之路。腾讯的马化腾和360的周鸿祎，他们都是由程序员做起，然后开创自已的产品和事业。 </p>
+<p>产品管理的兴起，产生了以产品经理为中心的产品工作职业方向。产品职业方向可以从产品系列的职务与岗位两个维度来观察。职务上，有首席产品官(CPO)、产品总监、产品经理、产品专员、产品助理，其中尤以产品经理一职最为中心;岗位上，有产品竞争分析与用户需求管理、产品创意与策划、产品原型设计、产品运营规划、产品实现过程跟踪、产品商品化实施、产品运营、产品经营成果分析与跟踪、产品升级维护管理、产品管理体系与制度建设、产品人员技能培养等。这些基于产品而设计的岗位以有效满足用户需求为中心，它不同于其它以专业技术和职能效率为中心的因职能分工而产生的岗位。 </p>
+<p>产品管理是近些年随着IT和互联网的快速兴起而被各企业所重视，而现在的各大院校并没有产品管理相关的专业，各类培训机构也少有类似培训课程，从事产品工作的人员大多是从不同专业、不同岗位转型过来的。相比较而言，程序员有着营销、测试、客服等岗位走向产品的人员所难以比拟的优势。有些公司甚至做出了规定，欲从事产品工作，必须要有多年的软件开发经验。程序员转型从事产品工作所具有的独特优势主要包括以下几点：</p>
+<p><strong>第一，程序员能够更好地理解产品的实现方案，所策划的产品更具可行性。</strong> 做产品策划工作，也许缺的不是点子或创意，而是有效可行的方案。多年的程序员工作经验，对软件技术和软件实现方案的判断，可以规避那些天马行空的产品想法，工作更有成效。比如在整理用户需求时，程序员的前期有效判断和可行性辨别，会大大提高产品的策划质量与速度。程序员出身的产品人员可以和研发人员进行无隙的沟通，用更便于研发人员理解的语言和思路来进行产品方案的解读和跟进。</p>
+<p><strong>第二，程序员的软件开发工作，与其说是代码的编写，不如说是逻辑语句的组织。</strong> 程序员一般都具备严密的逻辑思维能力，这是进行纷繁而杂乱的需求分析和产品概念设计必备的优势，更有利于从中分门别类理清脉络关系，转换为产品功能规划，把产品做成精品。例如需要往U盘写文件，产品人员可能只想到正常的操作逻辑，但程序员可能会想到更多异常情况，如：U盘损坏、传输过程中拔出、断电、传输的文件损坏、U盘写保护、重复文件、焦点位置、空间不足等等。再有，好的用户体验的产品，在本质上，就是产品功能的逻辑展示，或者说用户操作的逻辑引导。 </p>
+<p><strong>第三，程序员往系统分析的技术方向发展，</strong> 从本质上来说，同往产品策划方向发展是相通的，都需要对真实世界本质关系有着充分的理解与把握。能够走向系统分析员的优秀程序员，完全有可能成为一个优秀的产品策划人员。差别在于系统分析员的工作成果是面向程序员、面向计算机，而产品策划是面向用户、面向市场。每一名程序员也必定是某个软件产品开发工具的使用者，有深厚的软件产品使用体验，具有从用户出发来表述问题的基础。 </p>
+<p><strong>第四，程序员一般都具有快速学习能力，</strong> 保持对计算机相关行业动态和技术革新的观察与思考，这在一定程度上会培养对行业与技术的洞察力。产品策划和设计工作，最后能否获得市场的成功，考验的正是这种洞察力。因为产品工作是时时围绕“解决的是什么人的什么问题”来开展，也就是始终围绕“做正确的事”。只有对行业与技术有洞察力的人，才能够站在用户需求的角度来理解与体验，激发创意，做出好产品来。 </p>
+<p>当然，程序员虽具备上述独特优势，并不等于程序员转做产品工作，就一定能够成功。要策划出好的产品，要成为一名优秀的产品经理，他们也面临着各种挑战： </p>
+<p><strong>第一，创新和结构化思维的冲突。</strong>结构化思维可以说是程序员的典型标志，这种思维模式对于把一件事情做好是很重要的，但它往往也会是创新思维的天敌。创新却是产品工作的灵魂，程序员需要不断打破常规激发灵感才能做好产品工作，就必须克服已经形成的思维定势。 </p>
+<p><strong>第二，团队协作与英雄主义的矛盾。</strong>程序员往往习惯于单打独斗的工作方式，崇尚技术牛人，缺少团队协作意识和与人沟通的技能。产品工作则需要大量的沟通协调，甚至组织领导工作，强调的是团队作战。在合作精神方面，想要转向产品工作的程序员的确亟待加强。 </p>
+<p><strong>第三，商业意识和市场运营知识匮乏。</strong>特别是在全面产品管理思想下，产品人员需要有很强的市场营销方面的知识和商业化运作的策划与分析能力，仅仅把产品做出来是不够的，卖得掉才是硬道理。产品策划的环节，面临着营销模式、目标用户、渠道选择、竞争策略等的选择与设计，这也是摆在技术出身的程序员面前的重要课程。 </p>
+<p>每个企业，都会根据自身所在行业特点和本企业的资源优势，来部署不同形式的产品管理机制。程序员针对自己的性格特点和能力特征，抓住产品管理这一方兴未艾的职业机遇，走向产品，以优秀产品经理的能力模型培养来规划学习道路与职业生涯，是值得重视的一个职业方向。 </p>
+<p>本文中间内容转载 自：<a href="http://blog.sina.com.cn/s/blog_6c90ea9c0100t09v.html" target="_blank">走向产品是程序员的第三条职业通道</a> 作者：周宏中</p>
+]]></content>
+    <category scheme="http://whyyou.me/tags/程序员/" term="程序员"/>
+    <category scheme="http://whyyou.me/tags/产品经理/" term="产品经理"/>
+    <category scheme="http://whyyou.me/tags/产品管理/" term="产品管理"/>
+    <category scheme="http://whyyou.me/category/程序员/" term="程序员"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[备案了两次都给退回来了。]]></title>
+    <link href="http://whyyou.me/心情随笔/beian.html"/>
+    <id>http://whyyou.me/心情随笔/beian.html</id>
+    <published>2012-05-25T15:33:11.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p>备案了两次都给退回来了，关闭了两个月博客，鸟的，不备案了都！！！！！</p>
+<p><a href="http://whyyou.me/usr/uploads/2012/05/482897644.jpg" title="android_a2_cn20110516012145649.jpg"><img src="http://whyyou.me/usr/uploads/2012/05/482897644.jpg" alt="android_a2_cn20110516012145649.jpg"></a></p>
+]]></content>
+    <category scheme="http://whyyou.me/category/心情随笔/" term="心情随笔"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[青春，因为痛，所以不悔。]]></title>
+    <link href="http://whyyou.me/心情随笔/qingchunbuhui.html"/>
+    <id>http://whyyou.me/心情随笔/qingchunbuhui.html</id>
+    <published>2012-04-12T15:42:04.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p>&nbsp; &nbsp; &nbsp; &nbsp;翻阅了几本书籍后，最终又回到了青春这个话题。二十出头，外界已经把你定义为一个成年人了，可是这时候的年纪，很多人并未做好由内而外的成熟，于是便开始蹦着跳着，一路疼着痛着奔向那个遥远的未来。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;读完金兰都的《因为痛，所以叫青春》一书，我觉得自己非常有必要再度翻阅。很久以来，自己一直在希望着，却从未真正的去思考过那个遥远的希望在哪里，有时候给自己更多的借口只是因为自己尚还年轻，刚刚从那个之前看似烦恼如今却怎么也回不去的象牙塔里走出来，所以不曾思索太多。面对社会的现实趋势，然后开始了走一步是一步的生活工作，在毕业后相当长的一段时间里，自己也在为那个所谓的下一站在迷惘着，一直没有一个明确的答案。然后在某个特定的阶段里，自己的内心开始萌发了诸多的渴望，于是便开始想去追寻那个希望，再者就是哪怕再次万念成灰。</p>
+<a id="more"></a>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;<a href="http://whyyou.me/usr/uploads/2012/04/3989004139.jpg" title="qingchun.jpg"><img src="http://whyyou.me/usr/uploads/2012/04/3989004139.jpg" alt="qingchun.jpg"></a>在人生一路，难免会到达各种的低迷期，老金在书里告诫读者们，不论自己身处何境，都请打起自己的精神，让自己动起来，任何事情，都请在今天动手去做，因为不管世事如何，你终究还会是你，所以一旦度过了那些低迷的时期，那些曾经看着似乎是致命的疼痛也会变的平淡无奇。一直很懒，最近也开始慢慢的去利用一些零碎的时间，翻翻书籍，偶尔也拿着手机记一些英语单词，基本上已经没把时间花在游戏上了，更多的是去选择阅读一些别人的技术分享，去好好思考一些问题，然后也偶尔找朋友关乎一切的聊聊，自己看似挺不错的生活安排，但却也时常熬到半夜，我想改掉这个习惯应该是我的当务之急吧。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;其实在淘宝的这些时间以来，开始学会静静的去思考一些问题，更多的是开始了去注重如何高效率的完成一件事情，而不是跟之前那样只要看到结果就行。我很庆幸自己在迷茫了很长一段时间了之后到达了这个对我自己来说是一个非常不错的平台，这里的工作环境，身边的同事、朋友，以及自己目前正在做的事情。在这里呆的时间越长，有时候就会越觉得不安，因为不清楚自己究竟是要怎样去走在这里的这条路上，于是，老金在书里告诉我，如今的这个年纪，就是用来迷茫不安的，并且也在告诉我，也许很多你认为十分糟糕的一天，甚至让你想到去放弃整个人生，但是就这样的一天，对于许多人来讲可能就是一辈子的奢望，所以，我想我应该要在自己的这份不安里，找寻自己的出口，方法，以及实践。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;嘉兴一行，加上这本书的催化，也许我得开始给自己设计一些自己必须去遵守的规则，重新的去设计一遍自己的未来，不管若干年后的自己仍旧是一个打工者还是创业者，但终归得去尝试改变、尝试革新自己不是么？那天在嘉兴学院与一个学生朋友聊天，聊他所学的专业，聊怎么在出校门之前之后去适应这个社会环境，我不能给出什么可以确定性的答案，只能跟他说，如果可以，尽量让自己早点去触碰那些你之后认为可能会碰到的事物。对于他来讲，所有的压力应该只是看不到未来的那种迷茫感，而不是那些所要积累的社会经验和一些立足社会的技能。所以我有劝他，关于未来不用太过担心，如果你准备好了，就出发吧。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;“不要害怕坠落，地面并没有你想像得那么如同深渊一般。你们还年轻，无论什么样的伤害都可以抚平，然后再重新站立起来。不要过于恐惧，在坠落的过程中是会有翅膀生长出来的。”所以告诫自己，不管一路风掀雨阻，也要直面所有失败挫折，为了现在，为了将来，为了不让后悔的滋味伴随一生。</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;感谢有这么一位导师，让我如此有幸翻阅了这些文字，明晰了自己在如今前进途中的一个指向标，即使再彷徨，也至少有了一些自己的思路。继续出发吧，不惧那些阴风冷雨，因为，只有痛，才叫青春！</p>
+<pre>文：刘白羊 写于 2012年3月23日</pre>]]></content>
+    <category scheme="http://whyyou.me/tags/青春/" term="青春"/>
+    <category scheme="http://whyyou.me/tags/痛/" term="痛"/>
+    <category scheme="http://whyyou.me/tags/悔悟/" term="悔悟"/>
+    <category scheme="http://whyyou.me/category/心情随笔/" term="心情随笔"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[推荐几个有用的工具网站]]></title>
+    <link href="http://whyyou.me/网页设计/some-tools.html"/>
+    <id>http://whyyou.me/网页设计/some-tools.html</id>
+    <published>2012-02-22T05:25:07.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<pre>最近逛网站搜集了几个网站,先放出来看看。</pre>
+
+<h3>设计师专用的手绘设计模板工具</h3>
+<p>这个是一系列的设计工具，定义好一系列模板，包括iPad/iPhone/Android/Web模板，然后对应的图纸进行手绘设计，轻松快速的让您勾勒出的UI界面原型，点滴灵感都能随心跃于纸上。非常方便<br>网址：<a href="http://www.sukikits.com" target="_blank">sukikits.com</a></p>
+<h3>iBox在线工具</h3>
+<p>该网站提供Javascript/CSS等在线压缩，以及各种常用的工具，UI界面做的简洁，方便使用，所以推荐<br>网址：<a href="http://box.inote.cc/" target="_blank">box.inote.cc</a></p>
+<h3>Pears UI模式库</h3>
+<p>提供了一些Wordpress常用的UI模式，包括CSS/HTML，其主题由SimpleBits.com（无懈可击的Web设计作者）创建，个人看了，觉得很不错，许多模式都是可以套用的.<br>网址：<a href="http://pea.rs" target="_blank">pea.rs</a></p>
+<h3>栅格化布局样式生成工具</h3>
+<p>栅格化布局的样式生成，比较简洁，虽然现在有许多许多的CSS框架，但这个可以用来自行实践一下.<br>网址：<a href="http://yulans.cn/tools/css-grid-maker.php" target="_blank">yulans.cn/tools</a></p>
+<h3>UI 模式库</h3>
+<p>主要搜集了许多的Web的UI模式库，模式终究都是通用的，很多时候可以直接拿来使用。<br>网址：<a href="http://ui-patterns.com/" target="_blank">ui-patterns.com</a></p>
+]]></content>
+    <category scheme="http://whyyou.me/tags/网页设计/" term="网页设计"/>
+    <category scheme="http://whyyou.me/tags/CSS/" term="CSS"/>
+    <category scheme="http://whyyou.me/tags/设计/" term="设计"/>
+    <category scheme="http://whyyou.me/tags/UI/" term="UI"/>
+    <category scheme="http://whyyou.me/tags/UI模板/" term="UI模板"/>
+    <category scheme="http://whyyou.me/tags/javascript工具/" term="javascript工具"/>
+    <category scheme="http://whyyou.me/category/网页设计/" term="网页设计"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[情人节美图欣赏]]></title>
+    <link href="http://whyyou.me/心情随笔/Valentines-Day.html"/>
+    <id>http://whyyou.me/心情随笔/Valentines-Day.html</id>
+    <published>2012-02-14T05:46:55.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://whyyou.me/usr/uploads/2012/02/3803283251.jpg" title="3466382_980x1200_0.jpg"><img src="http://whyyou.me/usr/uploads/2012/02/3803283251.jpg" alt="3466382_980x1200_0.jpg"></a></p>
+<p><a href="http://whyyou.me/usr/uploads/2012/02/4027668970.jpg" title="那些年，我们一起度过的情人节A 1920x1080.jpg"><img src="http://whyyou.me/usr/uploads/2012/02/4027668970.jpg" alt="那些年，我们一起度过的情人节A 1920x1080.jpg"></a></p>
+<p><a href="http://whyyou.me/usr/uploads/2012/02/3831638750.jpg" title="情人节01 1920x1080(02-14-13-41-42).jpg"><img src="http://whyyou.me/usr/uploads/2012/02/3831638750.jpg" alt="情人节01 1920x1080(02-14-13-41-42).jpg"></a></p>
+<p>祝大伙，情人节快乐！！！</p>
+]]></content>
+    <category scheme="http://whyyou.me/tags/美图/" term="美图"/>
+    <category scheme="http://whyyou.me/tags/情人节/" term="情人节"/>
+    <category scheme="http://whyyou.me/category/心情随笔/" term="心情随笔"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[小说随声听：闭上眼睛倾听有声的世界]]></title>
+    <link href="http://whyyou.me/关注互联网/sound_novel_xssst_com.html"/>
+    <id>http://whyyou.me/关注互联网/sound_novel_xssst_com.html</id>
+    <published>2012-02-13T04:40:20.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p>不知还记得否，小时候，听老人讲故事的日子，坐在那儿，可以听上一个下午，仍旧意犹未尽。</p>
+<p>不知道还记得否，夜里听人讲鬼故事吓唬你的日子。</p>
+<p>不知还记得否，从前爱听收音机的日子。</p>
+<p>曾经那些乐趣，都随着文字读本的流行，电子读物的普及，而逐渐被取代了。然而#有声小说#的出现将让你重温儿时的乐趣。<br><a id="more"></a></p>
+<p>网络小说，现如今成了大众消遣闲暇时间的法宝，各种小说琳琅满目，数不胜数。在这无数的小说当中，有些连载却达到百万字，有些人盯着电脑看一天，眼睛都可以不眨一下。难道不觉得累么？</p>
+<p>于是乎，从有声读物里吸取了精华，将小说朗诵并加音效处理后，做成了有声小说，让大众可以享受到一个有声的，像是真实发生在你耳边的世界——有声的世界。</p>
+<p><a href="http://www.xssst.com" target="_blank">小说随身听</a> —— 一个新的有声小说网站，致力于让大家用心的享受这个有声的世界，取之精华，去之糟粕，做最好的有声小说产品，还有声小说一片净土。</p>
+<p><a href="http://whyyou.me/usr/uploads/2013/07/2987884758.jpg" title="小说随身听"><img src="http://whyyou.me/usr/uploads/2013/07/2987884758.jpg" alt="xssst.jpg"></a></p>
+<p>小说随声听，闭上眼睛倾听有声的世界，倾听你我他她。</p>
+<p>友情传送：<a href="http://www.xssst.com" target="_blank">传送门</a></p>
+]]></content>
+    <category scheme="http://whyyou.me/tags/有声小说/" term="有声小说"/>
+    <category scheme="http://whyyou.me/tags/网络小说/" term="网络小说"/>
+    <category scheme="http://whyyou.me/tags/有声读物/" term="有声读物"/>
+    <category scheme="http://whyyou.me/category/关注互联网/" term="关注互联网"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[转售emshost的vps]]></title>
+    <link href="http://whyyou.me/心情随笔/emshost-sale.html"/>
+    <id>http://whyyou.me/心情随笔/emshost-sale.html</id>
+    <published>2012-01-04T03:38:06.000Z</published>
+    <updated>2013-10-02T13:29:40.000Z</updated>
+    <content type="html"><![CDATA[<p>因为换了香港的vps，现在想转手在emshost上购买的一个美国vps，稳定且速度快。</p>
+<h4>主要配置如下</h4>
+<pre><code>内存：<span class="number">512</span>M
+硬盘：<span class="number">20</span>G
+流量：无限
+机房：F<span class="comment">remont He</span>
+系统：可无限换系统Linux/Windows 后台可自行安装
+续费价格：<span class="number">73</span>RMB/月
+到期时间：（<span class="number">2012</span>-<span class="number">3</span>-<span class="number">8</span>）还有两个月的使用限额</code></pre>
+<h4>售价：<span style="color:red">（50RMB）</span></h4>
+<p>已售出勿联系。</p>
+]]></content>
+    <category scheme="http://whyyou.me/tags/vps/" term="vps"/>
+    <category scheme="http://whyyou.me/tags/emsvps/" term="emsvps"/>
+    <category scheme="http://whyyou.me/tags/emshost/" term="emshost"/>
+    <category scheme="http://whyyou.me/category/心情随笔/" term="心情随笔"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[胡扯不成文的年底总结]]></title>
+    <link href="http://whyyou.me/心情随笔/huche-zongjie.html"/>
+    <id>http://whyyou.me/心情随笔/huche-zongjie.html</id>
+    <published>2011-12-31T12:00:08.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p>年底了，总该写写总结了。</p>
+<p>11月12月，公司项目分组转型之后，稀里糊涂的闲了1个月左右，结果呢倒好，到现在状态都没调整过来，仍旧是稀里糊涂的办着事，于是乎事情都没做好，然后自己开始懊恼，开始心烦，而每次每次心烦气躁之后，都开始反省，每次都觉得自己不会安排时间，这做一下，那做一下，结果时间就这么过去了。现在工作呢也落下了一点，其他琐事也没做好，老婆也没陪好。生活就这么过去了两个月，简直不知道自己这两月是怎么过来的。<br><a id="more"></a></p>
+<p>人嘛，有时候会想不上班了多好，自由支配下时间，现在终归开始怀念大学，怀念那时候青春焕发，心怀梦想。怀念终归是怀念，时间一晃而过，从学校出来至今也2年了吧。工作这么久了，一直觉得自己有个坏毛病呢，就是时间管理欠缺。o(︶︿︶)o 唉，就是喜欢这折腾一下，那折腾一下，然后时间过去了，事情却都没做好。</p>
+<h4>我自己想过两个方法来解决:</h4>
+<p>一是：先把一件事情做好，然后再接下来做下一件。</p>
+<p>二可以是：时间安排合理点，多件事情合理的安排在各个时间段里，每个时间段解决各自的事情。</p>
+<p>这两点里，我觉得第一件可能对我有点难，心里想着别的事情总是痒痒的无法抗拒哎。但第二点呢，时间安排会不够妥当</p>
+<p>写到这里自己忽然想明白了，其实按第二点做，按我性格做着做着也就变成第一点了。</p>
+<p>我一直希望自己能够重视这个问题，好好安排自己的所有时间！</p>
+<h4>年底了，没啥，心里慌，钞票没赚够，来年再接再励了。祝：新年更好吧。</h4>
+]]></content>
+    <category scheme="http://whyyou.me/tags/时间管理/" term="时间管理"/>
+    <category scheme="http://whyyou.me/tags/总结/" term="总结"/>
+    <category scheme="http://whyyou.me/category/心情随笔/" term="心情随笔"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[解决IE背景透明无法点击的问题]]></title>
+    <link href="http://whyyou.me/网页设计/ie-background-transparent.html"/>
+    <id>http://whyyou.me/网页设计/ie-background-transparent.html</id>
+    <published>2011-12-02T13:33:27.000Z</published>
+    <updated>2013-10-01T17:09:57.000Z</updated>
+    <content type="html"><![CDATA[<p>IE下，如果设置background:transparent，会引起，可能无法接收事件的问题。</p>
+<p>如，一个弹出菜单背景透明，文字不透明的办法是利用IE的渐变和RGBA：</p>
+<pre class="prettyprint" lang="css">background:#000;
+background:rgba(0,0,0,0.5);
+background:transparent\9;
+filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+-ms-filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);</pre>
+
+<p>可是如果是一个弹出菜单的情况下，该菜单则会无法点击。</p>
+<p>一个可行的办法是设置背景的url空：</p>
+<pre class="prettyprint" lang="css">background:url(#)\9;</pre>]]></content>
+    <category scheme="http://whyyou.me/tags/CSS/" term="CSS"/>
+    <category scheme="http://whyyou.me/tags/HTML5/" term="HTML5"/>
+    <category scheme="http://whyyou.me/category/网页设计/" term="网页设计"/>
+  </entry>
+</feed>
