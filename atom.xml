@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一个程序员的自白：给我台电脑，我也能改变世界]]></subtitle>
   <link href="http://whyyou.me/atom.xml" rel="self"/>
   <link href="http://whyyou.me"/>
-  <updated>2013-10-07T14:33:36.452Z</updated>
+  <updated>2013-10-07T15:38:35.428Z</updated>
   <id>http://whyyou.me/</id>
   <author>
     <name><![CDATA[lauyoume]]></name>
@@ -16,7 +16,7 @@
     <link href="http://whyyou.me/网页设计/staticfile.html"/>
     <id>http://whyyou.me/网页设计/staticfile.html</id>
     <published>2013-09-28T03:03:56.000Z</published>
-    <updated>2013-10-06T15:02:25.000Z</updated>
+    <updated>2013-10-07T15:38:14.000Z</updated>
     <content type="html"><![CDATA[<p>虽然国内外有很多类似的服务器，比如最初的google ajax api，还有后来的sae，百度等都有提供，但是也都有不同的弊端，比如国内访问速度慢、提供的静态文件不全等。。。staticfile有望解决这个问题。<a id="more"></a><br>访问 <a href="http://staticfile.org/" target="_blank">官方网站</a><br>简单介绍：</p>
 <p>此仓库由 Sofish、hfcorriez 和 ikbear 更新和维护，由七牛云存储提供存储和加速，国外源同步于 CDNJS。<br>特色：开放</p>
 <p>该项目托管在<a href="https://github.com/staticfile" target="_blank">github</a>上，每个人都可以去提交补充需要的js或者css库文件。<br>简介&amp;帮助：<a href="http://staticfile.org/about.html" target="_blank">关于staticfile.org</a><br>总之这种提供免费的开源前端库文件是造福人类的事情，而且目测速度很不错。推荐之～～</p>
@@ -31,7 +31,7 @@
     <link href="http://whyyou.me/关注互联网/iphone5_iso7.html"/>
     <id>http://whyyou.me/关注互联网/iphone5_iso7.html</id>
     <published>2013-06-12T15:17:49.000Z</published>
-    <updated>2013-10-02T13:58:12.000Z</updated>
+    <updated>2013-10-07T15:38:11.000Z</updated>
     <content type="html"><![CDATA[<p>今天兴致来了，想刷一下ios7，体验一把吧..第一次刷ios7，点恢复被我刷成砖头了，无法激活了，后来只能降级回6.1.4，然后再更新….现在特此记录下过程吧..<br><a id="more"></a></p>
 <h3>第一步 下载ios7固件</h3>
 <p>苹果iOS7.0 Beta1 测试版官方下载（源于苹果开发者中心）（需要开发者账号）：</p>
@@ -75,7 +75,7 @@
     <link href="http://whyyou.me/心情随笔/zhaopin.html"/>
     <id>http://whyyou.me/心情随笔/zhaopin.html</id>
     <published>2013-04-19T02:45:24.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:16.000Z</updated>
     <content type="html"><![CDATA[<p>朋友的一家创业公司，坐落于杭州滨江钱塘江畔，平均年龄25周岁，现在随着业务的展开，现有的技术人才储备已经远远跟不上公司飞速的跳跃式发展。迫切需要年轻的你们来加入，使公司更加年轻，更加富有朝气的蓬勃发展！因此需诚招以下岗位：<br><a id="more"></a></p>
 <ul>
 <li>C++程序员</li>
@@ -105,7 +105,7 @@
     <link href="http://whyyou.me/心情随笔/tanxinzi.html"/>
     <id>http://whyyou.me/心情随笔/tanxinzi.html</id>
     <published>2013-04-18T03:21:52.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:14.000Z</updated>
     <content type="html"><![CDATA[<p>最近公司要招人，薪资这块是个难题，不能太高，不然公司负担不起，不能太低，不然就招不到人啦。研究下这个吧，o(︶︿︶)o 唉.<br><a id="more"></a></p>
 <pre><code><span class="number">1</span>、在你觉得这个人非常符合公司要求的时候，千万不要表现出公司对于这个岗位的迫切程度，否则，还没有谈工资，你已经输了一着，因为聪明的应聘者会从你的只言片语中嗅出点什么，给HR谈薪资带来了难度。
 
@@ -131,7 +131,7 @@
     <link href="http://whyyou.me/心情随笔/shangbanzu.html"/>
     <id>http://whyyou.me/心情随笔/shangbanzu.html</id>
     <published>2013-02-22T08:52:22.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:13.000Z</updated>
     <content type="html"><![CDATA[<p>上班时候，你是不是每天中午都要纠结“吃什么”?是不是经常感觉有人CALL你? “最真诚”的一面是不是经常在挂掉电话后出现?……最近，一组名为《现代上班族的特色》的系列漫画在网络走红。年近岁晚，压力渐增的上班族仿佛一下子找到共鸣，纷纷感慨“中了好几枪”、“各种无奈各种伤不起”……<a id="more"></a></p>
 <p><img src="http://whyyou.me/usr/uploads/2013/02/2397111669.jpg" alt="上班族3.jpg"></p>
 <p><img src="http://whyyou.me/usr/uploads/2013/02/3871083240.jpg" alt="上班族.jpg"></p>
@@ -163,7 +163,7 @@
     <link href="http://whyyou.me/心情随笔/gouri-beian.html"/>
     <id>http://whyyou.me/心情随笔/gouri-beian.html</id>
     <published>2012-12-27T09:34:26.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:10.000Z</updated>
     <content type="html"><![CDATA[<p><a href="http://whyyou.me/usr/uploads/2012/12/1462789877.jpg" title="147135434.jpg"><img src="http://whyyou.me/usr/uploads/2012/12/1462789877.jpg" alt="147135434.jpg"></a></p>
 <p>SHIT,很难想像我这域名备案了接近半年了，前前后后提交了6、7次了，每次都是退回，可知道我心里有多难过o(︶︿︶)o 唉。狗日的管局，狗日的备案！！！！</p>
 <p>于是乎，这台买了万把RMB服务器空了大半年，让我情何以堪啊！！！！</p>
@@ -178,7 +178,7 @@
     <link href="http://whyyou.me/关注互联网/many-startups-failed.html"/>
     <id>http://whyyou.me/关注互联网/many-startups-failed.html</id>
     <published>2012-10-11T02:55:17.000Z</published>
-    <updated>2013-10-02T12:48:28.000Z</updated>
+    <updated>2013-10-07T15:38:12.000Z</updated>
     <content type="html"><![CDATA[<p>为什么如此多的创业公司都失败了呢？创业时期,，多看些这些有助于发现自身问题~~吸取教训！！！！<br><a id="more"></a></p>
 <hr>
 <p>创业公司的成功率不是我们能控制的，1000家中可能有那么2家能够估值1亿美元。我有40年的投资经验，每每见到创业公司创始人拉着脸说：“我们差点就让它出现在用户面前了”，我就知道他们的产品挂了，都没来得及获得用户反馈……但我经常给的建议是：让它们出现一周吧，看看有任何人注意它吗? <span id="more-164461"></span>他们有认真地回应吗？根据我多年的经验，一家创业公司会挂掉往往有着以下不足：</p>
@@ -202,7 +202,7 @@
     <link href="http://whyyou.me/关注互联网/11tiao.html"/>
     <id>http://whyyou.me/关注互联网/11tiao.html</id>
     <published>2012-09-03T06:05:57.000Z</published>
-    <updated>2013-10-02T13:53:20.000Z</updated>
+    <updated>2013-10-07T15:38:08.000Z</updated>
     <content type="html"><![CDATA[<p>这是上次公司让看的一本书，我简略的先发一段书中所说的内容(讲诉了互联网产品的11条重要法则)，之后抽空写些感想吧。这本书内容很好，我觉得看了其实还满受启发的。<a id="more"></a></p>
 <p>1. 二选一 法则</p>
 <p>互联网要么是项业务，要么是个媒体</p>
@@ -236,7 +236,7 @@
     <link href="http://whyyou.me/程序员/yun_svn_for_source.html"/>
     <id>http://whyyou.me/程序员/yun_svn_for_source.html</id>
     <published>2012-07-14T08:17:59.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:16.000Z</updated>
     <content type="html"><![CDATA[<p>以前一直把代码托管在国外的代码托管服务上，如googlecode、github等，方便在公司、家里、其他电脑上访问代码、同步修改，现在国内云盘那么多，我想了想能不能同步我svn本地的版本库呢，来吧，跟着我动手解决~~~~</p>
 <p>大家都知道，svn可以创建本地版本库，如果你把本地版本库创建在云盘的同步目录中，那就可以直接同步svn版本库了。</p>
 <p><a href="http://whyyou.me/usr/uploads/2012/07/4145881559.jpg" title="yun_svn.jpg"><img src="http://whyyou.me/usr/uploads/2012/07/4145881559.jpg" alt="yun_svn.jpg"></a></p>
@@ -268,7 +268,7 @@
     <link href="http://whyyou.me/关注互联网/degrading-for-it.html"/>
     <id>http://whyyou.me/关注互联网/degrading-for-it.html</id>
     <published>2012-07-09T13:22:11.000Z</published>
-    <updated>2013-10-02T15:21:54.000Z</updated>
+    <updated>2013-10-07T15:38:09.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://whyyou.me/usr/uploads/2012/07/4206300696.jpg" alt="boxing.jpg"><br>好文分享：《降级论》，这篇文章在某博客看到，个人觉得写的很不错，故转载分享了。混在IT界，不得不学的降级理论，也许你的思维已经局限了你的思考模式，何不跳出来你的思维，不要局限于你所在的行业，所学的知识，试试这篇文章所说的降级理论呢？原文内容如下：<a id="more"></a></p>
 <p>几乎一年没有写博客了，说没时间那是借口，唯一的原因是，年纪越大越发觉自己肤浅。有些想法还没提笔，就发现很幼稚，就不敢发出来贻笑大方了。这次先给大家说个小故事：</p>
 <p>从前有三个屌丝，聚在一起做网络，提供免费的网络服务，砸锅卖铁，通宵达旦，除了卖肾啥都做了。3年后终于做到了五百万用户，对于年轻人来说，能把五百万人玩弄于鼓掌之间，已经是很牛逼轰轰的事了，不过用户越多，成本越高，每年服务器、带宽租金、房租水电、广告运营等成本，已经达到了十七八万，屌丝们不得不面对一个终极问题：如何盈利？</p>
@@ -310,7 +310,7 @@
     <link href="http://whyyou.me/typecho/waterfall_theme.html"/>
     <id>http://whyyou.me/typecho/waterfall_theme.html</id>
     <published>2012-06-30T15:56:30.000Z</published>
-    <updated>2013-10-07T04:40:28.000Z</updated>
+    <updated>2013-10-07T15:38:16.000Z</updated>
     <content type="html"><![CDATA[<p>我已经很久没有更新过博客了，或许是我懒惰了吧，其实这些日子可写的东西不少，可是就是没心思，也不知自己现在的状态到底在忙些什么，然后呢，这个瀑布流主题，其实我自己也用了大半年了都，有些人来咨询过，我也分享出去了，只是一直都没发布，没找到理由发布，因为主题还没很完善，我一直也都没去更新它，虽可以使用，还有可以优化的空间的~~~<br><a id="more"></a></p>
 <pre><code>　　其实，老早就计划过这个主题要分享的，今天偶然看到<span class="typedef">typecho讨论区里，某某人提了下这个主题，好吧，想想还是先发布吧，优化不优化，喜欢的人总会使用，也会自行去优化的，不是么？</span></code></pre>
 <h3>主题名称</h3>
@@ -335,7 +335,7 @@
     <link href="http://whyyou.me/程序员/go_to_product.html"/>
     <id>http://whyyou.me/程序员/go_to_product.html</id>
     <published>2012-06-20T05:51:13.000Z</published>
-    <updated>2013-10-02T13:36:18.000Z</updated>
+    <updated>2013-10-07T15:38:10.000Z</updated>
     <content type="html"><![CDATA[<p>最近从程序员转岗到管理岗位有一个月时间了，这段时间适应的有点痛苦，压力巨大。也很久没有写东西了，下午看到这篇文章觉得不错，就转到博客来了，希望能给转岗的朋友们看看，除了技术、管理，还有第三条路 产品经理。</p>
 <pre><code>千千万万的程序员们一直困惑“程序员的前途如何”、“程序员工作到底能干多久”的问题。目前比较普遍的认识，程序员的职业通道有两条进阶路线。一条是技术路线，即由程序员、高级程序员、系统分析师，到架构设计师。在这条路线上，立足于从业务模型到计算机软件模型的转换，成为高端的软件技术工作者。另一条是管理路线，即由程序员，经开发小组负责人、项目经理，再到企业中高层管理者。程序员加强自己管理意识的培养，多站在组织的角度来分析问题和解决问题，成为优秀的管理者，甚至职业经理人。 </code></pre>
 <p><a href="http://whyyou.me/usr/uploads/2012/06/2143655281.jpg" title="走向产品是程序员的第三条职业通道"><img src="http://whyyou.me/usr/uploads/2012/06/2143655281.jpg" alt="走向产品是程序员的第三条职业通道"></a></p>
@@ -364,7 +364,7 @@
     <link href="http://whyyou.me/心情随笔/beian.html"/>
     <id>http://whyyou.me/心情随笔/beian.html</id>
     <published>2012-05-25T15:33:11.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:09.000Z</updated>
     <content type="html"><![CDATA[<p>备案了两次都给退回来了，关闭了两个月博客，鸟的，不备案了都！！！！！</p>
 <p><a href="http://whyyou.me/usr/uploads/2012/05/482897644.jpg" title="android_a2_cn20110516012145649.jpg"><img src="http://whyyou.me/usr/uploads/2012/05/482897644.jpg" alt="android_a2_cn20110516012145649.jpg"></a></p>
 ]]></content>
@@ -375,7 +375,7 @@
     <link href="http://whyyou.me/心情随笔/qingchunbuhui.html"/>
     <id>http://whyyou.me/心情随笔/qingchunbuhui.html</id>
     <published>2012-04-12T15:42:04.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:13.000Z</updated>
     <content type="html"><![CDATA[<p>&nbsp; &nbsp; &nbsp; &nbsp;翻阅了几本书籍后，最终又回到了青春这个话题。二十出头，外界已经把你定义为一个成年人了，可是这时候的年纪，很多人并未做好由内而外的成熟，于是便开始蹦着跳着，一路疼着痛着奔向那个遥远的未来。</p>
 <p>&nbsp; &nbsp; &nbsp; &nbsp;读完金兰都的《因为痛，所以叫青春》一书，我觉得自己非常有必要再度翻阅。很久以来，自己一直在希望着，却从未真正的去思考过那个遥远的希望在哪里，有时候给自己更多的借口只是因为自己尚还年轻，刚刚从那个之前看似烦恼如今却怎么也回不去的象牙塔里走出来，所以不曾思索太多。面对社会的现实趋势，然后开始了走一步是一步的生活工作，在毕业后相当长的一段时间里，自己也在为那个所谓的下一站在迷惘着，一直没有一个明确的答案。然后在某个特定的阶段里，自己的内心开始萌发了诸多的渴望，于是便开始想去追寻那个希望，再者就是哪怕再次万念成灰。</p>
 <a id="more"></a>
@@ -396,9 +396,8 @@
     <link href="http://whyyou.me/网页设计/some-tools.html"/>
     <id>http://whyyou.me/网页设计/some-tools.html</id>
     <published>2012-02-22T05:25:07.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
-    <content type="html"><![CDATA[<pre>最近逛网站搜集了几个网站,先放出来看看。</pre>
-
+    <updated>2013-10-07T15:38:13.000Z</updated>
+    <content type="html"><![CDATA[<p>最近逛网站搜集了几个网站,先放出来看看。</p>
 <h3>设计师专用的手绘设计模板工具</h3>
 <p>这个是一系列的设计工具，定义好一系列模板，包括iPad/iPhone/Android/Web模板，然后对应的图纸进行手绘设计，轻松快速的让您勾勒出的UI界面原型，点滴灵感都能随心跃于纸上。非常方便<br>网址：<a href="http://www.sukikits.com" target="_blank">sukikits.com</a></p>
 <h3>iBox在线工具</h3>
@@ -423,7 +422,7 @@
     <link href="http://whyyou.me/心情随笔/Valentines-Day.html"/>
     <id>http://whyyou.me/心情随笔/Valentines-Day.html</id>
     <published>2012-02-14T05:46:55.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:15.000Z</updated>
     <content type="html"><![CDATA[<p><a href="http://whyyou.me/usr/uploads/2012/02/3803283251.jpg" title="3466382_980x1200_0.jpg"><img src="http://whyyou.me/usr/uploads/2012/02/3803283251.jpg" alt="3466382_980x1200_0.jpg"></a></p>
 <p><a href="http://whyyou.me/usr/uploads/2012/02/4027668970.jpg" title="那些年，我们一起度过的情人节A 1920x1080.jpg"><img src="http://whyyou.me/usr/uploads/2012/02/4027668970.jpg" alt="那些年，我们一起度过的情人节A 1920x1080.jpg"></a></p>
 <p><a href="http://whyyou.me/usr/uploads/2012/02/3831638750.jpg" title="情人节01 1920x1080(02-14-13-41-42).jpg"><img src="http://whyyou.me/usr/uploads/2012/02/3831638750.jpg" alt="情人节01 1920x1080(02-14-13-41-42).jpg"></a></p>
@@ -438,7 +437,7 @@
     <link href="http://whyyou.me/关注互联网/sound_novel_xssst_com.html"/>
     <id>http://whyyou.me/关注互联网/sound_novel_xssst_com.html</id>
     <published>2012-02-13T04:40:20.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:13.000Z</updated>
     <content type="html"><![CDATA[<p>不知还记得否，小时候，听老人讲故事的日子，坐在那儿，可以听上一个下午，仍旧意犹未尽。</p>
 <p>不知道还记得否，夜里听人讲鬼故事吓唬你的日子。</p>
 <p>不知还记得否，从前爱听收音机的日子。</p>
@@ -460,7 +459,7 @@
     <link href="http://whyyou.me/心情随笔/emshost-sale.html"/>
     <id>http://whyyou.me/心情随笔/emshost-sale.html</id>
     <published>2012-01-04T03:38:06.000Z</published>
-    <updated>2013-10-02T13:29:40.000Z</updated>
+    <updated>2013-10-07T15:38:09.000Z</updated>
     <content type="html"><![CDATA[<p>因为换了香港的vps，现在想转手在emshost上购买的一个美国vps，稳定且速度快。</p>
 <h4>主要配置如下</h4>
 <pre><code>内存：<span class="number">512</span>M
@@ -483,7 +482,7 @@
     <link href="http://whyyou.me/心情随笔/huche-zongjie.html"/>
     <id>http://whyyou.me/心情随笔/huche-zongjie.html</id>
     <published>2011-12-31T12:00:08.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:10.000Z</updated>
     <content type="html"><![CDATA[<p>年底了，总该写写总结了。</p>
 <p>11月12月，公司项目分组转型之后，稀里糊涂的闲了1个月左右，结果呢倒好，到现在状态都没调整过来，仍旧是稀里糊涂的办着事，于是乎事情都没做好，然后自己开始懊恼，开始心烦，而每次每次心烦气躁之后，都开始反省，每次都觉得自己不会安排时间，这做一下，那做一下，结果时间就这么过去了。现在工作呢也落下了一点，其他琐事也没做好，老婆也没陪好。生活就这么过去了两个月，简直不知道自己这两月是怎么过来的。<br><a id="more"></a></p>
 <p>人嘛，有时候会想不上班了多好，自由支配下时间，现在终归开始怀念大学，怀念那时候青春焕发，心怀梦想。怀念终归是怀念，时间一晃而过，从学校出来至今也2年了吧。工作这么久了，一直觉得自己有个坏毛病呢，就是时间管理欠缺。o(︶︿︶)o 唉，就是喜欢这折腾一下，那折腾一下，然后时间过去了，事情却都没做好。</p>
@@ -504,7 +503,7 @@
     <link href="http://whyyou.me/网页设计/ie-background-transparent.html"/>
     <id>http://whyyou.me/网页设计/ie-background-transparent.html</id>
     <published>2011-12-02T13:33:27.000Z</published>
-    <updated>2013-10-01T17:09:57.000Z</updated>
+    <updated>2013-10-07T15:38:11.000Z</updated>
     <content type="html"><![CDATA[<p>IE下，如果设置background:transparent，会引起，可能无法接收事件的问题。</p>
 <p>如，一个弹出菜单背景透明，文字不透明的办法是利用IE的渐变和RGBA：</p>
 <pre class="prettyprint" lang="css">background:#000;
