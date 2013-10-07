@@ -79,6 +79,14 @@ a:hover {
   position: relative;
   z-index: 0;
 }
+hr {
+  background: transparent url("images/hr.png") repeat-x 0 0;
+  border: 0 none;
+  color: #ccc;
+  height: 4px;
+  padding: 0;
+  margin: 15px 0;
+}
 #header {
   width: 680px;
   margin: 50px auto;
