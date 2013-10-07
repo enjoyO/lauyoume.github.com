@@ -634,6 +634,16 @@ article footer .addthis iframe {
 #footer .social a.pinterest {
   background-image: url("images/pinterest.png");
 }
+#footer .link {
+  display: block;
+  margin-bottom: 10px;
+}
+#footer .link ul {
+  list-style: none;
+}
+#footer .link ul li {
+  float: left;
+}
 .entry .gist {
   background: #eee;
   border: 1px solid #ddd;
