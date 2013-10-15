@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>博客 - 简而美 • Simple Beauty</title>
+  <title>浅谈为何typecho转到hexo - 简而美 • Simple Beauty</title>
   <meta name="author" content="lauyoume">
   
   <meta name="description" content="一个程序员的自白：给我台电脑，我也能改变世界">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="浅谈为何typecho转到hexo"/>
   <meta property="og:site_name" content="简而美 • Simple Beauty"/>
 
   
@@ -55,25 +55,43 @@
   </ul>
 </nav></header>
   <div id="content" class="inner">
-    <div id="wrapper">
-<h2 class="archive-title tag">标签: 博客</h2>
-
-
-  
-    <article class="post">
+    <div id="wrapper"><article class="post">
   
   <div class="post-content">
     <header>
       
   
-    <h1 class="title"><a href="/typecho/why-from-typecho-to-hexo.html">浅谈为何typecho转到hexo</a></h1>
+    <h1 class="title">浅谈为何typecho转到hexo</h1>
   
 
     </header>
     <div class="entry">
       
         <p>在这大半年的时间里，一直没有去更新过博客，也没有特别关注过博客圈，也仅仅只是逛逛typecho社区，关注了下typecho是否更新。不过仅仅发现了typecho团队好像没有声音了哦，不知道他们是不是忙着<a href="http://segmentfault.com" target="_blank">segmentfault</a>项目了，不过目前更新与否以前不会在影响我了。</p>
-<p>在这过去的一周里，我突然发现了博客圈里好像不知道从什么时候起已经在开始流行了静态博客？忽然感觉自己就像井底的蛙一样，独守自己的世界而从不关心外边已经如何如何了，于是乎自己开始懊恼不已，一直觉得自己是在关注着互联网，关注着它的发展，然到现在看来自己忽略了很多东西。本身而言互联网是一个专注的行业，我没有专注这个领域而不得其踪那也无可厚非，只是我自己徒然伤感的不是这个，而是自己的一个封闭性，不与外界交流，自己关起门来打造一些无所谓有的东西，我感觉到了一种挫败开始在心里蔓延！
+<p>在这过去的一周里，我突然发现了博客圈里好像不知道从什么时候起已经在开始流行了静态博客？忽然感觉自己就像井底的蛙一样，独守自己的世界而从不关心外边已经如何如何了，于是乎自己开始懊恼不已，一直觉得自己是在关注着互联网，关注着它的发展，然到现在看来自己忽略了很多东西。本身而言互联网是一个专注的行业，我没有专注这个领域而不得其踪那也无可厚非，只是我自己徒然伤感的不是这个，而是自己的一个封闭性，不与外界交流，自己关起门来打造一些无所谓有的东西，我感觉到了一种挫败开始在心里蔓延！<a id="more"></a></p>
+<hr>
+<h3>从最初目的说起</h3>
+<p>从开始学程序到如今也大约有7年时光了，期间受到很多人的博客文章的启发，接受过国内外各种资料帮助，也从开源中学到了很多。而我最初开始些博客的目的也就是为了分享自己所学，帮助那些也在学习过程中的伙伴，因而大约08年我就开始写过博客了，断断续续在<a href="http://www.csdn.com" target="_blank">CSDN</a>、<a href="http://www.cppblog.com" target="_blank">CppBlog</a>、<a href="http://whyyou.me">简而美</a>写过文章，每次都持续不算很久，最长大约保持过1年左右，每月一篇的更新量，每次基本都会段更半年,其实我自己也特别想知道自己每次的这半年究竟做了些什么？与其说忙，还不如说是自己将时间浪费于不停的想问题，看问题上了。这些天里我一直在思考着想做还不如动手做，要动手做那就现在立马做！因此我希望接下来自己能将自己变的更加专注，写博客就应该专注于内容本身，而不再去关注其他外在的东西. 也就是说我应该回归最初写博的本质上来，其实这就是我转投静态博客的根本缘故了。</p>
+<h3>静态博客</h3>
+<p>我是不知道从何时起，开始流行静态博客生成器生成博客了~但是我看到了其中符合的一些特性，可以愉悦的使用Markdown来书写你的文章，你可以不必关心文章是什么形式组织的，当心文章什么时候丢失了找不回来了，静态博客生成器通过你的markdown文章文件直接生成了html, 然后你将静态html直接部署到某个主机上（GitHub Pages 、 虚拟主机 、 VPS已经不在受限了）。据我现在的了解已经出现很多此类的博客引擎，甚至也出现了<a href="http://www.farbox.com/" target="_blank">farbox</a>这样的产品，我大体上罗列下我所看到的一些吧：</p>
+<ul>
+<li>Jekyll / Octopress 基于Ruby，GitHub Pages支持</li>
+<li>Pelican / Nikola 基于Python</li>
+<li>Second Crack 基于 PHP</li>
+<li>Blacksmit / Hexo 基于Nodejs</li>
+<li>Gor 基于golang</li>
+<li>其他自行Google、度娘吧~</li>
+</ul>
+<p>当然还有跟云存储结合的相关静态博客产品，如前面的<a href="http://www.farbox.com/" target="_blank">farbox</a>、<a href="http://calepin.co/" target="_blank">calepin.com</a>、<a href="http://scriptogr.am/" target="_blank">scriptogr.am</a>。</p>
+<h3>为啥选了hexo</h3>
+<p>其实真没有为啥，因为自己最近一段时间一直在接触nodejs/golang，因为最近一段时间去看了些文章，了解到了最近一直流行了静态博客，而我第一次接触的就是hexo和farbox，而我也没想那么多，以前用过python但不太熟悉，就选了hexo来步入的静态博客之旅吧~我希望我的选择是正确的，能够让我专注于写文章。</p>
+<h3>从心开始</h3>
+<p>也因为此，我目前所常用的系统仍是windows，有些工作原因不得以，自己为了方便也写了个在windows一键部署发布博客的批处理，其实我是觉得应该弄到服务器上让它自己帮我发布的~这几天争取能做一个版。<br>希望自己能够专注起来，专注于某个领域，而不求大杂烩，而求精益。按心里所想的做，从心出发~</p>
+<blockquote>
+<p><a href="http://whyyou.me">lauyoume</a> Written with <a href="http://benweet.github.io/stackedit/" target="_blank">StackEdit</a>.</p>
+<p>本文写于 2013-10-15，上海，办公室</p>
+</blockquote>
+
       
     </div>
     <footer>
@@ -94,50 +112,26 @@
   </div>
   
 
-</article>
-  
-    <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/心情随笔/half-month-recover.html">半个月的一次小记</a></h1>
-  
+<section id="comment">
+	<h1 class="title">留言</h1>
+	
+		<div class="ds-thread" data-thread-key="188"></div>
+	
+	
+	<script type="text/javascript">
+		var duoshuoQuery = {short_name:"whyyou"};
+		(function() {
+			var ds = document.createElement('script');
+			ds.type = 'text/javascript';ds.async = true;
+			ds.src = 'http://static.duoshuo.com/embed.js';
+			ds.charset = 'UTF-8';
+			(document.getElementsByTagName('head')[0] 
+			|| document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
+	</script>	
+</section>
 
-    </header>
-    <div class="entry">
-      
-        <p>早上上班，第一件事情想的就是更新博客，好久了没更新了,都快接近20天了。天晓得自己最近都忙些什么呢，前段时间曾在不停的忙公司的一个游戏，努力了一个月游戏算是发布了，想想基本上的功能都自己写的，还行吧，算是我现在做的扑克里比较完整的一个了，接下来还有更多的事情，于是乎不知道什么时候能偷点时间乐一下。<br>
-      
-    </div>
-    <footer>
-      
-  
-  <div class="categories">
-    <a href="/category/心情随笔/">心情随笔</a>
-  </div>
-
-      
-  
-  <div class="tags">
-    <a href="/tags/iTown/">iTown</a>, <a href="/tags/博客/">博客</a>, <a href="/tags/订婚/">订婚</a>
-  </div>
-
-      <time datetime="2011-09-05T01:05:52.000Z">09 05, 2011</time>
-    </footer>
-  </div>
-  
-
-</article>
-  
-
-  <nav id="pagination" class="clearfix">
-  
-  
-</nav>
-
-</div>
+</article></div>
   </div>
   <footer id="footer" class="inner clearfix"><div class="link clearfix">
 	<div class="widget">
