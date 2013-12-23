@@ -62,6 +62,148 @@
     <header>
       
   
+    <h1 class="title"><a href="/程序员/ubuntu_jdk.html">Ubuntu安装JDK</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>有一台服务器别人安装的系统是Ubuntu，一直都用的是Centos，很少用过这系统，不太习惯，先记录下安装jdk的过程。</p>
+<p>首先添加最新jdk的PPA,并更新</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre>su<span class="operator"><span class="keyword">do</span> <span class="keyword">add</span>-apt-repository ppa:webupd8team/java
+sudo apt-<span class="keyword">get</span> <span class="keyword">update</span>
+</pre></td></tr></table></figure>
+
+<p>然后搜索jdk包，根据搜索结果安装需要的jdk版本</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre>su<span class="operator"><span class="keyword">do</span> apt-cache search jdk
+sudo apt-<span class="keyword">get</span> install oracle-jdk7-installer
+sudo apt-<span class="keyword">get</span> install oracle-java7-<span class="keyword">set</span>-<span class="keyword">default</span>
+</pre></td></tr></table></figure>
+
+<p>最后测试下java的命令能否使用</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="title">java</span> -version
+</pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer>
+      
+  
+  <div class="categories">
+    <a href="/category/程序员/">程序员</a>
+  </div>
+
+      
+  
+  <div class="tags">
+    <a href="/tags/linux/">linux</a>, <a href="/tags/java/">java</a>, <a href="/tags/ubuntu/">ubuntu</a>
+  </div>
+
+      <time datetime="2013-12-23T09:06:35.000Z">12 23, 2013</time>
+    </footer>
+  </div>
+  
+
+</article>
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title"><a href="/程序员/tengine_nginx_url_301.html">正则获取URL中的主域名</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>最近在做一个关键词站群~配置tengine(nginx)泛域名解析~但是需要将所有非www的域名301转发到有www前缀的域名, 比如whyyou.me/mail.whyyou.me/test.test.whyyou.me 301 到 www.whyyou.me。</p>
+<p>因为是任意域名都需要配置，所以需要用到一个正则从host当前域名或url中获得主域名，然后直接配置成转发到www下~
+      
+    </div>
+    <footer>
+      
+  
+  <div class="categories">
+    <a href="/category/程序员/">程序员</a>
+  </div>
+
+      
+  
+  <div class="tags">
+    <a href="/tags/正则/">正则</a>, <a href="/tags/正则表达式/">正则表达式</a>
+  </div>
+
+      <time datetime="2013-11-01T16:52:00.000Z">11 02, 2013</time>
+    </footer>
+  </div>
+  
+
+</article>
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title"><a href="/程序员/window-installer.html">Win7 x64系统无法访问Window Installer服务简单解决办法</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h3>问题样式</h3>
+<p>这两天电脑的win7 x64系统不知道咋啦，安装应用程序（MSI）一直出现Window Installer服务无法访问的现象，如下图：</p>
+<p><img src="http://ww2.sinaimg.cn/large/6935e3a3tw1e9ppe4qanbj20aw061q3c.jpg" alt="Window Installer无法访问"></p>
+<h3>解决办法</h3>
+<p>在网上查了很多解决办法~比如下载了Window Installer 5.0(CSDN里下的)重新安装、比如注册表删除、比如注册dll/exe等都用了都无效~<br>最初我还以为Windows自动修复功能需要系统盘，但我没有，一直没去尝试，后来真的别的它法了，准备试试，每想到还真成功了…方法如下：</p>
+<p>运行-&gt;cmd-&gt;右键管理员模式执行-&gt;输入：sfc /scannow<br>等待结果~重启就好了..</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>PS：等某些事情整理完成了，还是回归linux吧！！ <span class="keyword">window</span>总是各种莫名的坑！
+</pre></td></tr></table></figure>
+
+<blockquote>
+<p><a href="http://whyyou.me">lauyoume</a>, 2013-10-18 At Home, In ShangHai.</p>
+<p>Written with <a href="http://benweet.github.io/stackedit/" target="_blank">StackEdit</a>.</p>
+</blockquote>
+
+      
+    </div>
+    <footer>
+      
+  
+  <div class="categories">
+    <a href="/category/程序员/">程序员</a>
+  </div>
+
+      
+  
+  <div class="tags">
+    <a href="/tags/程序员/">程序员</a>, <a href="/tags/程序/">程序</a>, <a href="/tags/计算机爱好者/">计算机爱好者</a>
+  </div>
+
+      <time datetime="2013-10-18T14:40:00.000Z">10 18, 2013</time>
+    </footer>
+  </div>
+  
+
+</article>
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+  
     <h1 class="title"><a href="/typecho/why-from-typecho-to-hexo.html">浅谈为何typecho转到hexo</a></h1>
   
 
@@ -296,115 +438,6 @@
   </div>
 
       <time datetime="2013-04-18T03:21:52.000Z">04 18, 2013</time>
-    </footer>
-  </div>
-  
-
-</article>
-
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/心情随笔/shangbanzu.html">现代上班族众生相，你是不是中枪啦？</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>上班时候，你是不是每天中午都要纠结“吃什么”?是不是经常感觉有人CALL你? “最真诚”的一面是不是经常在挂掉电话后出现?……最近，一组名为《现代上班族的特色》的系列漫画在网络走红。年近岁晚，压力渐增的上班族仿佛一下子找到共鸣，纷纷感慨“中了好几枪”、“各种无奈各种伤不起”……
-      
-    </div>
-    <footer>
-      
-  
-  <div class="categories">
-    <a href="/category/心情随笔/">心情随笔</a>
-  </div>
-
-      
-  
-  <div class="tags">
-    <a href="/tags/上班族/">上班族</a>, <a href="/tags/中午吃什么/">中午吃什么</a>, <a href="/tags/屌丝奋斗史/">屌丝奋斗史</a>
-  </div>
-
-      <time datetime="2013-02-22T08:52:22.000Z">02 22, 2013</time>
-    </footer>
-  </div>
-  
-
-</article>
-
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/心情随笔/gouri-beian.html">你能想象一个域名备案了半年了还是失败？</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p><a href="http://whyyou.me/usr/uploads/2012/12/1462789877.jpg" title="147135434.jpg"><img src="http://whyyou.me/usr/uploads/2012/12/1462789877.jpg" alt="147135434.jpg"></a></p>
-<p>SHIT,很难想像我这域名备案了接近半年了，前前后后提交了6、7次了，每次都是退回，可知道我心里有多难过o(︶︿︶)o 唉。狗日的管局，狗日的备案！！！！</p>
-<p>于是乎，这台买了万把RMB服务器空了大半年，让我情何以堪啊！！！！</p>
-<p>去你妹的备案</p>
-
-      
-    </div>
-    <footer>
-      
-  
-  <div class="categories">
-    <a href="/category/心情随笔/">心情随笔</a>
-  </div>
-
-      
-  
-  <div class="tags">
-    <a href="/tags/备案/">备案</a>, <a href="/tags/服务器/">服务器</a>
-  </div>
-
-      <time datetime="2012-12-27T09:34:26.000Z">12 27, 2012</time>
-    </footer>
-  </div>
-  
-
-</article>
-
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/关注互联网/many-startups-failed.html">为什么如此多的创业公司都失败了？</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>为什么如此多的创业公司都失败了呢？创业时期,，多看些这些有助于发现自身问题~~吸取教训！！！！<br>
-      
-    </div>
-    <footer>
-      
-  
-  <div class="categories">
-    <a href="/category/关注互联网/">关注互联网</a>
-  </div>
-
-      
-  
-  <div class="tags">
-    <a href="/tags/创业/">创业</a>, <a href="/tags/创业建议/">创业建议</a>, <a href="/tags/创业失败/">创业失败</a>
-  </div>
-
-      <time datetime="2012-10-11T02:55:17.000Z">10 11, 2012</time>
     </footer>
   </div>
   

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>吐槽地 - 简而美 • Simple Beauty</title>
+  <title>正则获取URL中的主域名 - 简而美 • Simple Beauty</title>
   <meta name="author" content="lauyoume">
   
   <meta name="description" content="一个程序员的自白：给我台电脑，我也能改变世界">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="吐槽地"/>
+  <meta property="og:title" content="正则获取URL中的主域名"/>
   <meta property="og:site_name" content="简而美 • Simple Beauty"/>
 
   
@@ -55,31 +55,70 @@
   </ul>
 </nav></header>
   <div id="content" class="inner">
-    <div id="wrapper"><article class="page">
+    <div id="wrapper"><article class="post">
   
   <div class="post-content">
     <header>
       
   
-    <h1 class="title">吐槽地</h1>
+    <h1 class="title">正则获取URL中的主域名</h1>
   
 
     </header>
     <div class="entry">
       
-        <h4>关于我</h4>
-<p>小程序员，做着微不足道的游戏开发工作，闲时热爱折腾互联网，其实心中向来期待成为自由职业者，不用给别人打工哈哈，然后又能够赚不菲的钱。HOHO 当作是梦想吧</p>
-<h4>其次，这里作为吐槽用的，欢迎大家来吐槽滴</h4>
-<p>这里非常自由，你可以谈天说地，你可以畅所欲言~你可以谈技术，你可以谈生活，你可以谈兴趣，非常的欢迎，我写博的目的只是希望能够交到更多的朋友，也是让自己的东西能够分享给大家。</p>
-<hr>
-<pre><code><span class="attribute">PS</span>: <span class="string">开始恢复更新~~~希望朋友们常来哦~</span></code></pre>
+        <p>最近在做一个关键词站群~配置tengine(nginx)泛域名解析~但是需要将所有非www的域名301转发到有www前缀的域名, 比如whyyou.me/mail.whyyou.me/test.test.whyyou.me 301 到 www.whyyou.me。</p>
+<p>因为是任意域名都需要配置，所以需要用到一个正则从host当前域名或url中获得主域名，然后直接配置成转发到www下~<a id="more"></a></p>
+<figure class="highlight lang-javascript"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>([a-z0-<span class="number">9</span>][a-z0-<span class="number">9</span>\-]+?\.(?:com|cn|net|org|info|la|cc|co)(?:\.cn)?)$
+</pre></td></tr></table></figure>
+
+<p>那么tengine(nginx) 泛域名和转发配置大概如下</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="code"><pre><span class="title">listen</span>       <span class="number">80</span>;
+<span class="title">server_name</span>  <span class="regexp">*.com</span> <span class="regexp">*.cn</span> <span class="regexp">*.org</span> <span class="regexp">*.net</span> <span class="regexp">*.la</span> <span class="regexp">*.cc</span> <span class="regexp">*.co</span> <span class="regexp">*.com.cn</span>;
+<span class="title">index</span> index.html index.htm index.php;
+
+<span class="title">root</span>  /var/www/site_root;
+
+<span class="title">if</span> (<span class="variable">$host</span> <span class="regexp">~* ([a-z0-9][a-z0-9\-]+?\.(?:com|cn|net|org|info|la|cc|co)(?:\.cn)?)$</span> ) {
+	<span class="title">set</span> <span class="variable">$domain</span> <span class="variable">$1</span>;
+}
+
+<span class="title">if</span> (<span class="variable">$host</span> !<span class="regexp">~* ^www\.(.+)$)</span>{
+	<span class="title">rewrite</span><span class="regexp"> ^/(.*)$</span> <span class="url">http://www.$domain/$1</span> <span class="built_in">permanent</span>;
+}
+</pre></td></tr></table></figure>
+
 
       
     </div>
     <footer>
       
+  
+  <div class="categories">
+    <a href="/category/程序员/">程序员</a>
+  </div>
+
       
-      <time datetime="2013-10-07T05:39:51.000Z">10 07, 2013</time>
+  
+  <div class="tags">
+    <a href="/tags/正则/">正则</a>, <a href="/tags/正则表达式/">正则表达式</a>
+  </div>
+
+      <time datetime="2013-11-01T16:52:00.000Z">11 02, 2013</time>
     </footer>
   </div>
   
@@ -87,7 +126,7 @@
 <section id="comment">
 	<h1 class="title">留言</h1>
 	
-		<div class="ds-thread" data-thread-key="2"></div>
+		<div class="ds-thread" data-thread-key="190"></div>
 	
 	
 	<script type="text/javascript">

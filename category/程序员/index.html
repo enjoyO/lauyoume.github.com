@@ -66,6 +66,148 @@
     <header>
       
   
+    <h1 class="title"><a href="/程序员/ubuntu_jdk.html">Ubuntu安装JDK</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>有一台服务器别人安装的系统是Ubuntu，一直都用的是Centos，很少用过这系统，不太习惯，先记录下安装jdk的过程。</p>
+<p>首先添加最新jdk的PPA,并更新</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre>su<span class="operator"><span class="keyword">do</span> <span class="keyword">add</span>-apt-repository ppa:webupd8team/java
+sudo apt-<span class="keyword">get</span> <span class="keyword">update</span>
+</pre></td></tr></table></figure>
+
+<p>然后搜索jdk包，根据搜索结果安装需要的jdk版本</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre>su<span class="operator"><span class="keyword">do</span> apt-cache search jdk
+sudo apt-<span class="keyword">get</span> install oracle-jdk7-installer
+sudo apt-<span class="keyword">get</span> install oracle-java7-<span class="keyword">set</span>-<span class="keyword">default</span>
+</pre></td></tr></table></figure>
+
+<p>最后测试下java的命令能否使用</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="title">java</span> -version
+</pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer>
+      
+  
+  <div class="categories">
+    <a href="/category/程序员/">程序员</a>
+  </div>
+
+      
+  
+  <div class="tags">
+    <a href="/tags/linux/">linux</a>, <a href="/tags/java/">java</a>, <a href="/tags/ubuntu/">ubuntu</a>
+  </div>
+
+      <time datetime="2013-12-23T09:06:35.000Z">12 23, 2013</time>
+    </footer>
+  </div>
+  
+
+</article>
+  
+    <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title"><a href="/程序员/tengine_nginx_url_301.html">正则获取URL中的主域名</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>最近在做一个关键词站群~配置tengine(nginx)泛域名解析~但是需要将所有非www的域名301转发到有www前缀的域名, 比如whyyou.me/mail.whyyou.me/test.test.whyyou.me 301 到 www.whyyou.me。</p>
+<p>因为是任意域名都需要配置，所以需要用到一个正则从host当前域名或url中获得主域名，然后直接配置成转发到www下~
+      
+    </div>
+    <footer>
+      
+  
+  <div class="categories">
+    <a href="/category/程序员/">程序员</a>
+  </div>
+
+      
+  
+  <div class="tags">
+    <a href="/tags/正则/">正则</a>, <a href="/tags/正则表达式/">正则表达式</a>
+  </div>
+
+      <time datetime="2013-11-01T16:52:00.000Z">11 02, 2013</time>
+    </footer>
+  </div>
+  
+
+</article>
+  
+    <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title"><a href="/程序员/window-installer.html">Win7 x64系统无法访问Window Installer服务简单解决办法</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h3>问题样式</h3>
+<p>这两天电脑的win7 x64系统不知道咋啦，安装应用程序（MSI）一直出现Window Installer服务无法访问的现象，如下图：</p>
+<p><img src="http://ww2.sinaimg.cn/large/6935e3a3tw1e9ppe4qanbj20aw061q3c.jpg" alt="Window Installer无法访问"></p>
+<h3>解决办法</h3>
+<p>在网上查了很多解决办法~比如下载了Window Installer 5.0(CSDN里下的)重新安装、比如注册表删除、比如注册dll/exe等都用了都无效~<br>最初我还以为Windows自动修复功能需要系统盘，但我没有，一直没去尝试，后来真的别的它法了，准备试试，每想到还真成功了…方法如下：</p>
+<p>运行-&gt;cmd-&gt;右键管理员模式执行-&gt;输入：sfc /scannow<br>等待结果~重启就好了..</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>PS：等某些事情整理完成了，还是回归linux吧！！ <span class="keyword">window</span>总是各种莫名的坑！
+</pre></td></tr></table></figure>
+
+<blockquote>
+<p><a href="http://whyyou.me">lauyoume</a>, 2013-10-18 At Home, In ShangHai.</p>
+<p>Written with <a href="http://benweet.github.io/stackedit/" target="_blank">StackEdit</a>.</p>
+</blockquote>
+
+      
+    </div>
+    <footer>
+      
+  
+  <div class="categories">
+    <a href="/category/程序员/">程序员</a>
+  </div>
+
+      
+  
+  <div class="tags">
+    <a href="/tags/程序员/">程序员</a>, <a href="/tags/程序/">程序</a>, <a href="/tags/计算机爱好者/">计算机爱好者</a>
+  </div>
+
+      <time datetime="2013-10-18T14:40:00.000Z">10 18, 2013</time>
+    </footer>
+  </div>
+  
+
+</article>
+  
+    <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+  
     <h1 class="title"><a href="/程序员/yun_svn_for_source.html">使用云盘、svn同步及管理你的代码</a></h1>
   
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>吐槽地 - 简而美 • Simple Beauty</title>
+  <title>ubuntu - 简而美 • Simple Beauty</title>
   <meta name="author" content="lauyoume">
   
   <meta name="description" content="一个程序员的自白：给我台电脑，我也能改变世界">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="吐槽地"/>
+  
   <meta property="og:site_name" content="简而美 • Simple Beauty"/>
 
   
@@ -55,55 +55,75 @@
   </ul>
 </nav></header>
   <div id="content" class="inner">
-    <div id="wrapper"><article class="page">
+    <div id="wrapper">
+<h2 class="archive-title tag">标签: ubuntu</h2>
+
+
+  
+    <article class="post">
   
   <div class="post-content">
     <header>
       
   
-    <h1 class="title">吐槽地</h1>
+    <h1 class="title"><a href="/程序员/ubuntu_jdk.html">Ubuntu安装JDK</a></h1>
   
 
     </header>
     <div class="entry">
       
-        <h4>关于我</h4>
-<p>小程序员，做着微不足道的游戏开发工作，闲时热爱折腾互联网，其实心中向来期待成为自由职业者，不用给别人打工哈哈，然后又能够赚不菲的钱。HOHO 当作是梦想吧</p>
-<h4>其次，这里作为吐槽用的，欢迎大家来吐槽滴</h4>
-<p>这里非常自由，你可以谈天说地，你可以畅所欲言~你可以谈技术，你可以谈生活，你可以谈兴趣，非常的欢迎，我写博的目的只是希望能够交到更多的朋友，也是让自己的东西能够分享给大家。</p>
-<hr>
-<pre><code><span class="attribute">PS</span>: <span class="string">开始恢复更新~~~希望朋友们常来哦~</span></code></pre>
+        <p>有一台服务器别人安装的系统是Ubuntu，一直都用的是Centos，很少用过这系统，不太习惯，先记录下安装jdk的过程。</p>
+<p>首先添加最新jdk的PPA,并更新</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre>su<span class="operator"><span class="keyword">do</span> <span class="keyword">add</span>-apt-repository ppa:webupd8team/java
+sudo apt-<span class="keyword">get</span> <span class="keyword">update</span>
+</pre></td></tr></table></figure>
+
+<p>然后搜索jdk包，根据搜索结果安装需要的jdk版本</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre>su<span class="operator"><span class="keyword">do</span> apt-cache search jdk
+sudo apt-<span class="keyword">get</span> install oracle-jdk7-installer
+sudo apt-<span class="keyword">get</span> install oracle-java7-<span class="keyword">set</span>-<span class="keyword">default</span>
+</pre></td></tr></table></figure>
+
+<p>最后测试下java的命令能否使用</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="title">java</span> -version
+</pre></td></tr></table></figure>
+
 
       
     </div>
     <footer>
       
+  
+  <div class="categories">
+    <a href="/category/程序员/">程序员</a>
+  </div>
+
       
-      <time datetime="2013-10-07T05:39:51.000Z">10 07, 2013</time>
+  
+  <div class="tags">
+    <a href="/tags/linux/">linux</a>, <a href="/tags/java/">java</a>, <a href="/tags/ubuntu/">ubuntu</a>
+  </div>
+
+      <time datetime="2013-12-23T09:06:35.000Z">12 23, 2013</time>
     </footer>
   </div>
   
 
-<section id="comment">
-	<h1 class="title">留言</h1>
-	
-		<div class="ds-thread" data-thread-key="2"></div>
-	
-	
-	<script type="text/javascript">
-		var duoshuoQuery = {short_name:"whyyou"};
-		(function() {
-			var ds = document.createElement('script');
-			ds.type = 'text/javascript';ds.async = true;
-			ds.src = 'http://static.duoshuo.com/embed.js';
-			ds.charset = 'UTF-8';
-			(document.getElementsByTagName('head')[0] 
-			|| document.getElementsByTagName('body')[0]).appendChild(ds);
-		})();
-	</script>	
-</section>
+</article>
+  
 
-</article></div>
+  <nav id="pagination" class="clearfix">
+  
+  
+</nav>
+
+</div>
   </div>
   <footer id="footer" class="inner clearfix"><div class="link clearfix">
 	<div class="widget">

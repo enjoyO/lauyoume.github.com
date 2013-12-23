@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>吐槽地 - 简而美 • Simple Beauty</title>
+  <title>Win7 x64系统无法访问Window Installer服务简单解决办法 - 简而美 • Simple Beauty</title>
   <meta name="author" content="lauyoume">
   
   <meta name="description" content="一个程序员的自白：给我台电脑，我也能改变世界">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="吐槽地"/>
+  <meta property="og:title" content="Win7 x64系统无法访问Window Installer服务简单解决办法"/>
   <meta property="og:site_name" content="简而美 • Simple Beauty"/>
 
   
@@ -55,31 +55,49 @@
   </ul>
 </nav></header>
   <div id="content" class="inner">
-    <div id="wrapper"><article class="page">
+    <div id="wrapper"><article class="post">
   
   <div class="post-content">
     <header>
       
   
-    <h1 class="title">吐槽地</h1>
+    <h1 class="title">Win7 x64系统无法访问Window Installer服务简单解决办法</h1>
   
 
     </header>
     <div class="entry">
       
-        <h4>关于我</h4>
-<p>小程序员，做着微不足道的游戏开发工作，闲时热爱折腾互联网，其实心中向来期待成为自由职业者，不用给别人打工哈哈，然后又能够赚不菲的钱。HOHO 当作是梦想吧</p>
-<h4>其次，这里作为吐槽用的，欢迎大家来吐槽滴</h4>
-<p>这里非常自由，你可以谈天说地，你可以畅所欲言~你可以谈技术，你可以谈生活，你可以谈兴趣，非常的欢迎，我写博的目的只是希望能够交到更多的朋友，也是让自己的东西能够分享给大家。</p>
-<hr>
-<pre><code><span class="attribute">PS</span>: <span class="string">开始恢复更新~~~希望朋友们常来哦~</span></code></pre>
+        <h3>问题样式</h3>
+<p>这两天电脑的win7 x64系统不知道咋啦，安装应用程序（MSI）一直出现Window Installer服务无法访问的现象，如下图：</p>
+<p><img src="http://ww2.sinaimg.cn/large/6935e3a3tw1e9ppe4qanbj20aw061q3c.jpg" alt="Window Installer无法访问"></p>
+<h3>解决办法</h3>
+<p>在网上查了很多解决办法~比如下载了Window Installer 5.0(CSDN里下的)重新安装、比如注册表删除、比如注册dll/exe等都用了都无效~<br>最初我还以为Windows自动修复功能需要系统盘，但我没有，一直没去尝试，后来真的别的它法了，准备试试，每想到还真成功了…方法如下：</p>
+<p>运行-&gt;cmd-&gt;右键管理员模式执行-&gt;输入：sfc /scannow<br>等待结果~重启就好了..</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>PS：等某些事情整理完成了，还是回归linux吧！！ <span class="keyword">window</span>总是各种莫名的坑！
+</pre></td></tr></table></figure>
+
+<blockquote>
+<p><a href="http://whyyou.me">lauyoume</a>, 2013-10-18 At Home, In ShangHai.</p>
+<p>Written with <a href="http://benweet.github.io/stackedit/" target="_blank">StackEdit</a>.</p>
+</blockquote>
 
       
     </div>
     <footer>
       
+  
+  <div class="categories">
+    <a href="/category/程序员/">程序员</a>
+  </div>
+
       
-      <time datetime="2013-10-07T05:39:51.000Z">10 07, 2013</time>
+  
+  <div class="tags">
+    <a href="/tags/程序员/">程序员</a>, <a href="/tags/程序/">程序</a>, <a href="/tags/计算机爱好者/">计算机爱好者</a>
+  </div>
+
+      <time datetime="2013-10-18T14:40:00.000Z">10 18, 2013</time>
     </footer>
   </div>
   
@@ -87,7 +105,7 @@
 <section id="comment">
 	<h1 class="title">留言</h1>
 	
-		<div class="ds-thread" data-thread-key="2"></div>
+		<div class="ds-thread" data-thread-key="189"></div>
 	
 	
 	<script type="text/javascript">
